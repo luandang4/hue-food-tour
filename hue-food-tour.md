@@ -196,7 +196,7 @@ Hãy phân tích dữ liệu trước, sau đó mới đưa ra hai tour hoàn ch
 
 ### TOUR 1 – BỜ BẮC: GIA HỘI – KINH THÀNH – TÂY LỘC – LĂNG KHẢI ĐỊNH – THIÊN MỤ
 
-Tour cả ngày, chủ yếu ở bờ Bắc sông Hương. Sáng: bún bò (tùy chọn) và xôi, cafe Phê La, rồi vào Đại Nội. Gần trưa: cà phê nhìn ra Đại Nội, xong ăn cơm hến trưa ở chợ Tây Lộc. Chiều: lăng Khải Định, rồi Thiên Mụ ngắm hoàng hôn. Chiều tối: về cụm Gia Hội, ăn bèo nậm lọc, uống cafe trứng, ăn ốc rồi bún bò.
+Tour cả ngày, chủ yếu ở bờ Bắc sông Hương. Sáng: bún bò (tùy chọn) và xôi, cafe Phê La, rồi vào Đại Nội. Gần trưa: cà phê nhìn ra Đại Nội, xong ăn cơm hến trưa ở chợ Tây Lộc. Chiều: lăng Khải Định, rồi Thiên Mụ ngắm hoàng hôn. Chiều tối: về cụm Gia Hội, ăn bèo nậm lọc, uống cafe view sông Đông Ba, ăn ốc rồi bún bò.
 
 #### Quán ăn
 
@@ -219,9 +219,9 @@ Tour cả ngày, chủ yếu ở bờ Bắc sông Hương. Sáng: bún bò (tùy
 | Khung giờ | Quán | Vibe / Món nên thử (theo sheet) | Địa chỉ | Vì sao chọn |
 |---|---|---|---|---|
 | ☕ Sau ăn sáng | [Phê La – Huế](https://www.google.com/maps/place/Ph%C3%AA+La+-+Hu%C3%AA%CC%81/@16.4671334,107.5905512,17z/data=!4m6!3m5!1s0x3141a11ad897d571:0x75b479b362cb2a74!8m2!3d16.4671334!4d107.5905512!16s%2Fg%2F11yskxfdbd) | Quán bạn chọn (không có trong sheet) | Gần 30 Lê Lợi, Vĩnh Ninh, P. Thuận Hóa (bờ Nam, đầu cầu Trường Tiền) | Theo yêu cầu, không tối ưu tuyến |
-| ☕ Gần trưa | [Afternoon Coffee (Quán Cà phê Chiều)](https://www.google.com/maps/place/Qu%C3%A1n+C%C3%A0+ph%C3%AA+Chi%E1%BB%81u/@16.4719061,107.5732967,17z/data=!4m6!3m5!1s0x3141a12d41bcd025:0xaa207939a8a80999!8m2!3d16.4724529!4d107.5755759!16s%2Fg%2F1tg7ph4w) | Cổ kính, view phố phường và **Đại Nội** | 44 Đặng Thái Thân, P. Phú Xuân | Nằm ngay giữa Đại Nội và chợ Tây Lộc (cách mỗi bên ~1,3 km). Nghỉ chân sau khi tham quan rồi đi ăn trưa |
+| ☕ Gần trưa | [Lầu Tứ Phương Vô Sự](https://www.google.com/maps/place/L%E1%BA%A7u+T%E1%BB%A9+Ph%C6%B0%C6%A1ng+V%C3%B4+S%E1%BB%B1/@16.4719061,107.5732967,17z/data=!3m1!4b1!4m6!3m5!1s0x3141a12d67ad0327:0xd40c3feed2e228f2!8m2!3d16.471901!4d107.575877!16s%2Fg%2F120l36s9) | Cổ kính, Huế · view ra **cổng Hòa Bình** | Đặng Thái Thân, P. Phú Xuân | Cách Đại Nội 1,4 km, chợ Tây Lộc 700 m. Dự phòng: [Đề-Pô Cafe](https://www.google.com/maps/place/%C4%90%E1%BB%81-P%C3%B4+Cafe/@16.4648067,107.5921979,17z/data=!4m6!3m5!1s0x3141a1d1698c78b3:0x8acf0e53b4467931!8m2!3d16.4731576!4d107.5886234!16s%2Fg%2F11tjjpm_vh) (tầng 2 chợ Đông Ba) |
 | 📍 Tham quan (thay KODO) | [Lăng Khải Định](https://www.google.com/maps/search/?api=1&query=L%C4%83ng+Kh%E1%BA%A3i+%C4%90%E1%BB%8Bnh+Hu%E1%BA%BF) | – | Thủy Bằng, P. Thủy Xuân (phía Nam thành phố) | Theo yêu cầu |
-| ☕ Chiều tối | [Giao Cafe](https://www.google.com/maps/place/Giao+Cafe/@16.4779331,107.5872564,17z/data=!3m1!4b1!4m6!3m5!1s0x3141a141be0faeeb:0x3bb22e58af83eb6d!8m2!3d16.477928!4d107.5898367!16s%2Fg%2F11mb0fw4wd) | Huế, Indie · **Cafe trứng** | 118 Chi Lăng, Phú Cát, P. Phú Xuân | Nằm giữa Huế Xưa (500 m) và Ốc Hẻm (600 m). Có ngõ vàng treo cờ để check-in |
+| ☕ Chiều tối | [HUE CAFE ROASTERY](https://www.google.com/maps/place/HUE+CAFE+ROASTERY/@16.4769342,107.5836365,17z/data=!3m1!4b1!4m6!3m5!1s0x3141a19558ae5ce7:0x4d02f07327065053!8m2!3d16.4769291!4d107.5862168!16s%2Fg%2F11tmt_dh6x) | View sông Đông Ba và chùa trên đường Bạch Đằng | 131 Huỳnh Thúc Kháng, Phú Hòa, P. Phú Xuân | Gần chợ Đông Ba, giữa Huế Xưa (1,6 km) và Ốc Hẻm (1,2 km). Dự phòng: [Mê – Cafe Bến Xưa](https://www.google.com/maps/place/M%C3%AA+-+Cafe+B%E1%BA%BFn+X%C6%B0a/@16.4770875,107.5923485,17z/data=!3m1!4b1!4m6!3m5!1s0x3141a1007ab31489:0x3626544adbe4f10b!8m2!3d16.4770824!4d107.5949288!16s%2Fg%2F11lmk7zc3f) (view bến sông) |
 
 #### Lịch trình & di chuyển
 
@@ -231,31 +231,31 @@ Tour cả ngày, chủ yếu ở bờ Bắc sông Hương. Sáng: bún bò (tùy
 | 07:15 | 1. Xôi Ngô Đức Kế | 1,35 km | ~5 phút |
 | 07:45–08:30 | ☕ Phê La – Huế | 2,0 km (qua cầu Trường Tiền) | ~6 phút |
 | 08:45–11:00 | 🏯 Đại Nội (Ngọ Môn) | 1,8 km | ~6 phút |
-| 11:15–12:00 | ☕ Afternoon Coffee | 1,3 km | ~5 phút |
+| 11:15–12:00 | ☕ Lầu Tứ Phương Vô Sự | 1,4 km | ~5 phút |
 | 12:15 | 2. Cơm hến bé Đen – chợ Tây Lộc (**trưa**) | 1,3 km | ~5 phút |
 | 13:00 | 3. Quán Mì Thiện Mỹ (mua mang theo) | 2,3 km | ~8 phút |
 | 13:30–14:45 | 📍 Lăng Khải Định | 8,9 km | ~25 phút |
 | 15:20–17:15 | 4. Chùa Thiên Mụ + đậu hũ, hoàng hôn | 11,7 km | ~30 phút |
 | 17:35 | 4b. Chè Mợ Tôn Đích | 5,5 km | ~15 phút |
 | 18:15 | 5. Bánh bèo nậm lọc Huế Xưa | 1,8 km | ~6 phút |
-| 19:00–19:40 | ☕ Giao Cafe | 0,5 km | ~3 phút |
-| 19:50 | 6. Ốc Hẻm Huế | 0,6 km | ~3 phút |
+| 19:00–19:40 | ☕ HUE CAFE ROASTERY | 1,6 km | ~5 phút |
+| 19:50 | 6. Ốc Hẻm Huế | 1,2 km | ~4 phút |
 | 20:45 | 7. Bún bò O Ty | 0,03 km | đi bộ 1 phút |
 
 **Tổng quãng đường: ~39 km** (tăng vì đi Lăng Khải Định và lệch sang Phê La).
 
 🗺️ **Link chỉ đường.** Google Maps giới hạn số điểm dừng trong một link, nên tách làm 2 chặng:
-- **Sáng → trưa** (Cảnh Vân → Xôi → Phê La → Đại Nội → Afternoon Coffee → Tây Lộc → Thiện Mỹ):
-  https://www.google.com/maps/dir/16.4750876,107.5900262/16.4768718,107.5834445/16.4671334,107.5905512/16.4678107,107.5790879/16.4724529,107.5755759/16.4733387,107.5672745/16.4615313,107.5695753
-- **Chiều → tối** (Thiện Mỹ → Lăng Khải Định → Thiên Mụ → Chè Mợ Tôn Đích → Huế Xưa → Giao → Ốc Hẻm → O Ty):
-  https://www.google.com/maps/dir/16.4615313,107.5695753/16.3990174,107.5903393/16.4537195,107.5445808/16.4690466,107.5850157/16.4819779,107.5896761/16.477928,107.5898367/16.4791391,107.5892809/16.4789776,107.5894103
+- **Sáng → trưa** (Cảnh Vân → Xôi → Phê La → Đại Nội → Lầu Tứ Phương Vô Sự → Tây Lộc → Thiện Mỹ):
+  https://www.google.com/maps/dir/16.4750876,107.5900262/16.4768718,107.5834445/16.4671334,107.5905512/16.4678107,107.5790879/16.471901,107.575877/16.4733387,107.5672745/16.4615313,107.5695753
+- **Chiều → tối** (Thiện Mỹ → Lăng Khải Định → Thiên Mụ → Chè Mợ Tôn Đích → Huế Xưa → HUE CAFE ROASTERY → Ốc Hẻm → O Ty):
+  https://www.google.com/maps/dir/16.4615313,107.5695753/16.3990174,107.5903393/16.4537195,107.5445808/16.4690466,107.5850157/16.4819779,107.5896761/16.4769291,107.5862168/16.4791391,107.5892809/16.4789776,107.5894103
 
 **Tham quan kết hợp:** Đại Nội, chợ Tây Lộc (đồ 2hand), tường thành Lê Duẩn, Lăng Khải Định, chùa Thiên Mụ, phố cổ Gia Hội về đêm.
 
 **Lưu ý**
 - Sheet ghi Huế Xưa bán "trưa, xế". Nếu tới 18:15 mà quán đã đóng, có 2 cách:
   - ăn Huế Xưa ngay sau Xôi Ngô Đức Kế (cách ~1 km), rồi mới qua Phê La;
-  - hoặc bỏ Huế Xưa, ngồi Giao Cafe sớm hơn.
+  - hoặc bỏ Huế Xưa, ngồi HUE CAFE ROASTERY sớm hơn.
 - Sheet cafe không ghi giờ mở cửa. Nên kiểm tra trên Maps trước, nhất là Phê La nếu ngồi sớm. Lăng Khải Định cũng nên kiểm tra giờ mở cửa.
 
 ---
@@ -326,10 +326,20 @@ Tour cả ngày ở bờ Nam sông Hương. Sáng: xôi, cà phê retro ven sôn
 | Mỗi tour 7–10 quán ăn | ✅ Tour 1 có 7 quán + 1 bún bò tùy chọn. Tour 2 có 7 quán. Mỗi tour có thêm 3 quán cafe (Tour 1 thêm 1 cafe tùy chọn) |
 | Buổi sáng không ăn cơm | ✅ Đã bỏ Cơm niêu Chạn. Cơm hến dời sang 12:15. Sáng chỉ có bún bò và xôi |
 | Bún bò trước xôi (Tour 1) | ✅ Cảnh Vân lúc 06:30 (tùy chọn), thay thế bằng mệ Kéo |
-| Cafe sáng / gần trưa / chiều tối | ✅ Tour 1: Phê La, Afternoon Coffee, Giao Cafe. Tour 2: Xưởng 1976, de b&b house, Không Gian Sách |
+| Cafe sáng / gần trưa / chiều tối | ✅ Tour 1: Phê La, Lầu Tứ Phương Vô Sự, HUE CAFE ROASTERY. Tour 2: Xưởng 1976, de b&b house, Không Gian Sách |
 | Không trùng quán giữa 2 tour | ✅ Cả quán ăn lẫn quán cafe |
 | Không trùng danh mục | ⚠️ Có 2 ngoại lệ có chủ đích:<br>• **Bún bò** xuất hiện 2 lần trong Tour 1 (sáng là tùy chọn theo yêu cầu, tối là O Ty).<br>• **Xôi** có ở cả 2 tour, khác kiểu: xôi mặn/mì chấm và xôi lộn xộn.<br>Các danh mục còn lại không trùng |
 | Không có món cấm | ✅ |
 | Ưu tiên HR | ✅ Tất cả quán ăn đều tô xanh. Tab cafe không đánh dấu recommend |
 | Lộ trình theo địa lý | ✅ Tour 1 nằm trọn bờ Bắc, Tour 2 nằm trọn bờ Nam. Quán cafe đều nằm sát tuyến: chặng cafe xa nhất là 1,8 km |
 | Link Maps riêng từng điểm | ✅ Cơm hến bé Đen và đậu hũ Thiên Mụ không có link riêng trong sheet, nên dùng link chợ Tây Lộc và chùa Thiên Mụ |
+
+---
+
+## Thay đổi lần 5 (Tour 1 – đổi 2 quán cafe)
+
+> tour1: Afternoon Coffee chỉ bán buổi chiều, Giao Cf vừa xa thành phố vừa xấu, đổi quán khác
+
+- Gần trưa: Afternoon Coffee → **Lầu Tứ Phương Vô Sự** (cùng đường Đặng Thái Thân, view cổng Hòa Bình). Dự phòng: Đề-Pô Cafe.
+- Chiều tối: Giao Cafe → **HUE CAFE ROASTERY** (131 Huỳnh Thúc Kháng, gần chợ Đông Ba, view sông). Dự phòng: Mê – Cafe Bến Xưa.
+- Link chỉ đường Tour 1 đã cập nhật tọa độ mới.

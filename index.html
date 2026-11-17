@@ -48,8 +48,8 @@ const TOURS = {
   desc: "Cả ngày. Sáng: bún bò, xôi, Phê La rồi vào Đại Nội. Trưa: cơm hến chợ Tây Lộc. Chiều: lăng Khải Định, hoàng hôn ở Thiên Mụ. Tối: cụm Gia Hội.",
   total: "~39 km",
   routes: [
-   ["Chỉ đường: Sáng → Trưa","https://www.google.com/maps/dir/16.4750876,107.5900262/16.4768718,107.5834445/16.4671334,107.5905512/16.4678107,107.5790879/16.4724529,107.5755759/16.4733387,107.5672745/16.4615313,107.5695753"],
-   ["Chỉ đường: Chiều → Tối","https://www.google.com/maps/dir/16.4615313,107.5695753/16.3990174,107.5903393/16.4537195,107.5445808/16.4690466,107.5850157/16.4819779,107.5896761/16.477928,107.5898367/16.4791391,107.5892809/16.4789776,107.5894103"]
+   ["Chỉ đường: Sáng → Trưa","https://www.google.com/maps/dir/16.4750876,107.5900262/16.4768718,107.5834445/16.4671334,107.5905512/16.4678107,107.5790879/16.471901,107.575877/16.4733387,107.5672745/16.4615313,107.5695753"],
+   ["Chỉ đường: Chiều → Tối","https://www.google.com/maps/dir/16.4615313,107.5695753/16.3990174,107.5903393/16.4537195,107.5445808/16.4690466,107.5850157/16.4819779,107.5896761/16.4769291,107.5862168/16.4791391,107.5892809/16.4789776,107.5894103"]
   ],
   stops: [
    {time:"06:30",kind:"food",opt:true,hr:true,name:"Bún cơm nguội Cảnh Vân",cat:"Bún bò Huế",dish:"Bún bò Huế (là bún, không phải cơm)",addr:"Khu Gia Hội, P. Phú Xuân",info:"Từ 20k/tô · bán buổi sáng",
@@ -60,8 +60,9 @@ const TOURS = {
    {time:"07:45",end:"08:30",kind:"cafe",name:"Phê La – Huế",dish:"Quán bạn chọn",addr:"Gần 30 Lê Lợi, Vĩnh Ninh (bờ Nam, đầu cầu Trường Tiền)",note:"Qua cầu Trường Tiền sang bờ Nam rồi quay lại Đại Nội.",dist:"2 km · ~6 phút",
     map:"https://www.google.com/maps/place/Ph%C3%AA+La+-+Hu%C3%AA%CC%81/@16.4671334,107.5905512,17z/data=!4m6!3m5!1s0x3141a11ad897d571:0x75b479b362cb2a74!8m2!3d16.4671334!4d107.5905512!16s%2Fg%2F11yskxfdbd"},
    {time:"08:45",end:"11:00",kind:"sight",name:"Đại Nội (Ngọ Môn)",addr:"Thành Nội, P. Phú Xuân",dist:"1,8 km · ~6 phút",map:M("Ngọ Môn Huế")},
-   {time:"11:15",end:"12:00",kind:"cafe",name:"Afternoon Coffee (Cà phê Chiều)",dish:"Cổ kính, view phố và Đại Nội",addr:"44 Đặng Thái Thân, P. Phú Xuân",note:"Nghỉ chân sau Đại Nội, trên đường qua chợ Tây Lộc.",dist:"1,3 km · ~5 phút",
-    map:"https://www.google.com/maps/place/Qu%C3%A1n+C%C3%A0+ph%C3%AA+Chi%E1%BB%81u/@16.4719061,107.5732967,17z/data=!4m6!3m5!1s0x3141a12d41bcd025:0xaa207939a8a80999!8m2!3d16.4724529!4d107.5755759!16s%2Fg%2F1tg7ph4w"},
+   {time:"11:15",end:"12:00",kind:"cafe",name:"Lầu Tứ Phương Vô Sự",dish:"Cổ kính, view ra cổng Hòa Bình",addr:"Đặng Thái Thân, P. Phú Xuân (Thành Nội)",note:"Nghỉ chân sau Đại Nội, trên đường qua chợ Tây Lộc (cách 700 m).",dist:"1,4 km · ~5 phút",
+    alt:["Đề-Pô Cafe – tầng 2 chợ Đông Ba, view phố và cầu Gia Hội","https://www.google.com/maps/place/%C4%90%E1%BB%81-P%C3%B4+Cafe/@16.4648067,107.5921979,17z/data=!4m6!3m5!1s0x3141a1d1698c78b3:0x8acf0e53b4467931!8m2!3d16.4731576!4d107.5886234!16s%2Fg%2F11tjjpm_vh"],
+    map:"https://www.google.com/maps/place/L%E1%BA%A7u+T%E1%BB%A9+Ph%C6%B0%C6%A1ng+V%C3%B4+S%E1%BB%B1/@16.4719061,107.5732967,17z/data=!3m1!4b1!4m6!3m5!1s0x3141a12d67ad0327:0xd40c3feed2e228f2!8m2!3d16.471901!4d107.575877!16s%2Fg%2F120l36s9"},
    {time:"12:15",kind:"food",hr:true,name:"Cơm hến bé Đen – chợ Tây Lộc",cat:"Cơm/bún hến",dish:"Cơm hến (bữa trưa)",addr:"Trong chợ Tây Lộc, đường Hoàng Diệu",info:"12k/tô · bán cả ngày",note:"Sheet không có link riêng, link dưới đây mở chợ Tây Lộc. Ăn xong lựa đồ 2hand trong chợ.",dist:"1,3 km · ~5 phút",map:M("Chợ Tây Lộc Huế")},
    {time:"13:00",kind:"food",hr:true,name:"Quán Mì Thiện Mỹ",cat:"Bánh mì",dish:"Bánh mì heo quay (mua mang theo)",addr:"Đường Lê Duẩn (Phú Thạnh), P. Phú Xuân",info:"Từ 7k/ổ",dist:"2,3 km · ~8 phút",
     map:"https://www.google.com/maps/place/Qu%C3%A1n+M%C3%AC+Thi%E1%BB%87n+M%E1%BB%B9/@16.4615313,107.5695753,17z/data=!4m6!3m5!1s0x3141a7c5c79af549:0x5c76866395a83da8!8m2!3d16.4615313!4d107.5695753!16s%2Fg%2F11h7szvkdg"},
@@ -71,9 +72,10 @@ const TOURS = {
     map:"https://www.google.com/maps/place/Ch%C3%A8+M%E1%BB%A3+T%C3%B4n+%C4%90%C3%ADch/@16.4690466,107.5850157,17z/data=!4m6!3m5!1s0x3141a13065375f0f:0x1c449355353d15b2!8m2!3d16.4690466!4d107.5850157!16s%2Fg%2F11c4tb28kd"},
    {time:"18:15",kind:"food",hr:true,name:"Bánh Bèo Nậm Lọc Huế Xưa",cat:"Bánh Huế",dish:"Bánh bèo, nậm, bánh lọc",addr:"Đường Nguyễn Bỉnh Khiêm, Gia Hội",note:"Sheet ghi quán bán trưa và xế. Nếu đã đóng, ăn ngay sau Xôi Ngô Đức Kế buổi sáng.",dist:"1,8 km · ~6 phút",
     map:"https://www.google.com/maps/place/Qu%C3%A1n+B%C3%A1nh+B%C3%A8o+N%E1%BA%ADm+L%E1%BB%8Dc+Hu%E1%BA%BF+X%C6%B0a/@16.4819779,107.5896761,17z/data=!4m6!3m5!1s0x3141a0d884d0af8f:0xaee706b9b3cdd8f6!8m2!3d16.4819779!4d107.5896761!16s%2Fg%2F11hbg8pxg1"},
-   {time:"19:00",end:"19:40",kind:"cafe",name:"Giao Cafe",dish:"Cafe trứng",addr:"118 Chi Lăng, Phú Cát, P. Phú Xuân",note:"Có ngõ nhỏ màu vàng treo cờ, check-in được.",dist:"0,5 km · ~3 phút",
-    map:"https://www.google.com/maps/place/Giao+Cafe/@16.4779331,107.5872564,17z/data=!3m1!4b1!4m6!3m5!1s0x3141a141be0faeeb:0x3bb22e58af83eb6d!8m2!3d16.477928!4d107.5898367!16s%2Fg%2F11mb0fw4wd"},
-   {time:"19:50",kind:"food",hr:true,name:"Ốc Hẻm Huế",cat:"Ốc",dish:"Các món ốc",addr:"Gia Hội, P. Phú Xuân",info:"Ngon, đông khách",dist:"0,6 km · ~3 phút",
+   {time:"19:00",end:"19:40",kind:"cafe",name:"HUE CAFE ROASTERY",dish:"View sông Đông Ba và chùa trên đường Bạch Đằng",addr:"131 Huỳnh Thúc Kháng, Phú Hòa, P. Phú Xuân",note:"Gần chợ Đông Ba, giữa Huế Xưa và Ốc Hẻm.",dist:"1,6 km · ~5 phút",
+    alt:["Mê – Cafe Bến Xưa – view bến sông, Vỹ Dạ","https://www.google.com/maps/place/M%C3%AA+-+Cafe+B%E1%BA%BFn+X%C6%B0a/@16.4770875,107.5923485,17z/data=!3m1!4b1!4m6!3m5!1s0x3141a1007ab31489:0x3626544adbe4f10b!8m2!3d16.4770824!4d107.5949288!16s%2Fg%2F11lmk7zc3f"],
+    map:"https://www.google.com/maps/place/HUE+CAFE+ROASTERY/@16.4769342,107.5836365,17z/data=!3m1!4b1!4m6!3m5!1s0x3141a19558ae5ce7:0x4d02f07327065053!8m2!3d16.4769291!4d107.5862168!16s%2Fg%2F11tmt_dh6x"},
+   {time:"19:50",kind:"food",hr:true,name:"Ốc Hẻm Huế",cat:"Ốc",dish:"Các món ốc",addr:"Gia Hội, P. Phú Xuân",info:"Ngon, đông khách",dist:"1,2 km · ~4 phút",
     map:"https://www.google.com/maps/place/%E1%BB%90c+H%E1%BA%BBm+Hu%E1%BA%BF/@16.4791391,107.5892809,17z/data=!4m6!3m5!1s0x3141a1441d8fb92f:0x9292b0aea10208a9!8m2!3d16.4791391!4d107.5892809!16s%2Fg%2F11t_hxv8x0"},
    {time:"20:45",kind:"food",hr:true,name:"Bún bò O Ty",cat:"Bún bò Huế",dish:"Bún bò Huế (bữa tối)",addr:"Đường Nguyễn Du, Phú Cát, P. Phú Xuân",info:"Từ 30k/tô · bán tối/khuya",dist:"Sát Ốc Hẻm · đi bộ 1 phút",
     map:"https://www.google.com/maps/place/B%C3%BAn+b%C3%B2+O+T%C3%BD/@16.4789827,107.58683,17z/data=!3m1!4b1!4m6!3m5!1s0x3141a12703a7aebf:0x9fe679eb0c34270a!8m2!3d16.4789776!4d107.5894103!16s%2Fg%2F11c6pqt0yg"}
