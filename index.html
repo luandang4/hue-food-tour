@@ -1,0 +1,145 @@
+<!doctype html>
+<html lang="vi">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Huế Food Tour</title>
+<style>
+:root{--bg:#f7f4ee;--card:#fff;--ink:#1f1d1a;--muted:#6b665e;--line:#e2dccf;--head:#f0e9dc;--accent:#7a2e3a;--hr:#2f7d4f;--cafe:#8a5a2b;--sight:#3a5a8c;--opt:#8a6d00}
+@media (prefers-color-scheme: dark){:root{--bg:#141311;--card:#1f1d1a;--ink:#f1ece4;--muted:#a59f95;--line:#34302a;--head:#2a2723;--accent:#e39aa6;--hr:#7fd09f;--cafe:#e0b583;--sight:#9db8e6;--opt:#e8cf6a}}
+*{box-sizing:border-box}html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--bg);color:var(--ink);font:14px/1.45 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Arial,sans-serif}
+main{max-width:760px;margin:0 auto;padding:16px 16px 32px}
+h1{font-size:22px;margin:0 0 4px}.sub{color:var(--muted);font-size:13px;margin:0 0 16px}
+h2{font-size:18px;margin:24px 0 2px}.area{color:var(--muted);font-size:13px;margin:0 0 8px}
+.routes{display:flex;flex-wrap:wrap;gap:8px;margin:0 0 10px}
+.routes a{flex:1 1 140px;text-align:center;text-decoration:none;font-weight:600;font-size:13px;padding:9px 10px;border-radius:10px;background:var(--accent);color:var(--bg)}
+table{width:100%;border-collapse:collapse;background:var(--card);border:1px solid var(--line);border-radius:12px;overflow:hidden}
+th,td{padding:8px;border-bottom:1px solid var(--line);vertical-align:top;text-align:left}
+th{background:var(--head);font-size:12px;color:var(--muted);font-weight:600}
+tr:last-child td{border-bottom:0}
+td.t{white-space:nowrap;font-weight:700;font-variant-numeric:tabular-nums;width:1%}
+td.m{width:1%;text-align:center}
+td.m a{display:inline-block;text-decoration:none;font-weight:700;font-size:12px;color:var(--accent);border:1px solid var(--accent);border-radius:8px;padding:5px 8px;white-space:nowrap}
+.n{font-weight:700}.d{color:var(--muted);font-size:13px}
+.k{font-size:11px;font-weight:700;margin-left:4px}
+.k.hr{color:var(--hr)}.k.cafe{color:var(--cafe)}.k.sight{color:var(--sight)}.k.opt{color:var(--opt)}
+tr.cafe td{background:color-mix(in srgb,var(--cafe) 7%,var(--card))}
+tr.sight td{background:color-mix(in srgb,var(--sight) 7%,var(--card))}
+tr.opt td.t,tr.opt .n{color:var(--opt)}
+.alt{font-size:12px}.alt a{color:var(--accent)}
+.legend{font-size:12px;color:var(--muted);margin-top:8px}
+footer{color:var(--muted);font-size:12px;margin-top:20px}
+</style>
+</head>
+<body>
+<main>
+  <h1>Huế Food Tour</h1>
+  <p class="sub">☕ cafe · 📍 tham quan · Bấm "Maps" để mở Google Maps</p>
+  <div id="app"></div>
+  <footer>Nguồn: Google Sheets "FOODLIST XỨ HUẾ MỘNG MƠ". Không ăn: chay, bánh canh, bánh tráng cuốn thịt heo, ốp la/bánh mì chảo, bún đậu mắm tôm. Kiểm tra giờ mở cửa trên Maps trước khi đi.</footer>
+</main>
+<script>
+const M = s => "https://www.google.com/maps/search/?api=1&query=" + encodeURIComponent(s);
+const TOURS = {
+ t1: {
+  title: "Tour 1 – Bờ Bắc",
+  area: "Gia Hội – Kinh Thành – Tây Lộc – Lăng Khải Định – Thiên Mụ",
+  desc: "Cả ngày. Sáng: bún bò, xôi, Phê La rồi vào Đại Nội. Trưa: cơm hến chợ Tây Lộc. Chiều: lăng Khải Định, hoàng hôn ở Thiên Mụ. Tối: cụm Gia Hội.",
+  total: "~39 km",
+  routes: [
+   ["Chỉ đường: Sáng → Trưa","https://www.google.com/maps/dir/16.4750876,107.5900262/16.4768718,107.5834445/16.4671334,107.5905512/16.4678107,107.5790879/16.4724529,107.5755759/16.4733387,107.5672745/16.4615313,107.5695753"],
+   ["Chỉ đường: Chiều → Tối","https://www.google.com/maps/dir/16.4615313,107.5695753/16.3990174,107.5903393/16.4537195,107.5445808/16.4690466,107.5850157/16.4819779,107.5896761/16.477928,107.5898367/16.4791391,107.5892809/16.4789776,107.5894103"]
+  ],
+  stops: [
+   {time:"06:30",kind:"food",opt:true,hr:true,name:"Bún cơm nguội Cảnh Vân",cat:"Bún bò Huế",dish:"Bún bò Huế (là bún, không phải cơm)",addr:"Khu Gia Hội, P. Phú Xuân",info:"Từ 20k/tô · bán buổi sáng",
+    alt:["Bún bò mệ Kéo – cách 130 m, từ 30k/tô, thường hết lúc 8h–8h30","https://www.google.com/maps/place/B%C3%BAn+b%C3%B2+m%E1%BB%87+K%C3%A9o/@16.4750485,107.5886999,17z/data=!3m1!4b1!4m6!3m5!1s0x3141a1ca41e5bf03:0x7f35035e0fe667af!8m2!3d16.4750485!4d107.5886999!16s%2Fg%2F11t0p8_2w7"],
+    map:"https://www.google.com/maps/place/B%C3%BAn+c%C6%A1m+ngu%E1%BB%99i+C%E1%BA%A3nh+V%C3%A2n/@16.4750927,107.5874459,17z/data=!3m1!4b1!4m6!3m5!1s0x3141a18dff2a7db3:0x759b81988b0b353d!8m2!3d16.4750876!4d107.5900262!16s%2Fg%2F11fmslzcmw"},
+   {time:"07:15",kind:"food",hr:true,name:"Xôi Ngô Đức Kế",cat:"Xôi",dish:"Xôi mặn, mì chấm",addr:"Khu Ngô Đức Kế – Mai Thúc Loan, Thành Nội",info:"Từ 15k/phần",note:"Nên đến trước 8h30 vì xôi hết nhanh.",dist:"1,35 km · ~5 phút",
+    map:"https://www.google.com/maps/place/X%C3%B4i+Ng%C3%B4+%C4%90%E1%BB%A9c+K%E1%BA%BF/@16.4610076,107.5696342,14z/data=!4m10!1m2!2m1!1zeMO0aSBodeG6vw!3m6!1s0x3141a1e0eb1b56d7:0x21896596ee61b782!8m2!3d16.4768718!4d107.5834445!15sCgp4w7RpIGh14bq_WgwiCnjDtGkgaHXhur-SAQZiaXN0cm_gAQA!16s%2Fg%2F11p6wn5g24"},
+   {time:"07:45",end:"08:30",kind:"cafe",name:"Phê La – Huế",dish:"Quán bạn chọn",addr:"Gần 30 Lê Lợi, Vĩnh Ninh (bờ Nam, đầu cầu Trường Tiền)",note:"Qua cầu Trường Tiền sang bờ Nam rồi quay lại Đại Nội.",dist:"2 km · ~6 phút",
+    map:"https://www.google.com/maps/place/Ph%C3%AA+La+-+Hu%C3%AA%CC%81/@16.4671334,107.5905512,17z/data=!4m6!3m5!1s0x3141a11ad897d571:0x75b479b362cb2a74!8m2!3d16.4671334!4d107.5905512!16s%2Fg%2F11yskxfdbd"},
+   {time:"08:45",end:"11:00",kind:"sight",name:"Đại Nội (Ngọ Môn)",addr:"Thành Nội, P. Phú Xuân",dist:"1,8 km · ~6 phút",map:M("Ngọ Môn Huế")},
+   {time:"11:15",end:"12:00",kind:"cafe",name:"Afternoon Coffee (Cà phê Chiều)",dish:"Cổ kính, view phố và Đại Nội",addr:"44 Đặng Thái Thân, P. Phú Xuân",note:"Nghỉ chân sau Đại Nội, trên đường qua chợ Tây Lộc.",dist:"1,3 km · ~5 phút",
+    map:"https://www.google.com/maps/place/Qu%C3%A1n+C%C3%A0+ph%C3%AA+Chi%E1%BB%81u/@16.4719061,107.5732967,17z/data=!4m6!3m5!1s0x3141a12d41bcd025:0xaa207939a8a80999!8m2!3d16.4724529!4d107.5755759!16s%2Fg%2F1tg7ph4w"},
+   {time:"12:15",kind:"food",hr:true,name:"Cơm hến bé Đen – chợ Tây Lộc",cat:"Cơm/bún hến",dish:"Cơm hến (bữa trưa)",addr:"Trong chợ Tây Lộc, đường Hoàng Diệu",info:"12k/tô · bán cả ngày",note:"Sheet không có link riêng, link dưới đây mở chợ Tây Lộc. Ăn xong lựa đồ 2hand trong chợ.",dist:"1,3 km · ~5 phút",map:M("Chợ Tây Lộc Huế")},
+   {time:"13:00",kind:"food",hr:true,name:"Quán Mì Thiện Mỹ",cat:"Bánh mì",dish:"Bánh mì heo quay (mua mang theo)",addr:"Đường Lê Duẩn (Phú Thạnh), P. Phú Xuân",info:"Từ 7k/ổ",dist:"2,3 km · ~8 phút",
+    map:"https://www.google.com/maps/place/Qu%C3%A1n+M%C3%AC+Thi%E1%BB%87n+M%E1%BB%B9/@16.4615313,107.5695753,17z/data=!4m6!3m5!1s0x3141a7c5c79af549:0x5c76866395a83da8!8m2!3d16.4615313!4d107.5695753!16s%2Fg%2F11h7szvkdg"},
+   {time:"13:30",end:"14:45",kind:"sight",name:"Lăng Khải Định",addr:"Thủy Bằng, P. Thủy Xuân (phía Nam thành phố)",dist:"8,9 km · ~25 phút",map:M("Lăng Khải Định Huế")},
+   {time:"15:20",end:"17:15",kind:"food",hr:true,sightToo:true,name:"Chùa Thiên Mụ + Đậu hũ",cat:"Chè",dish:"Đậu hũ (sheet xếp vào nhóm Chè), ngắm hoàng hôn",addr:"Đường Nguyễn Phúc Nguyên, P. Kim Long",info:"5k–10k/ly",note:"Trước chùa có cả một dãy hàng đậu hũ, ngồi hàng nào cũng được.",dist:"11,7 km · ~30 phút",map:M("Chùa Thiên Mụ Huế")},
+   {time:"17:35",kind:"food",hr:true,name:"Chè Mợ Tôn Đích",cat:"Chè",dish:"Chè bột lọc heo quay (đặc sản)",addr:"Khu cửa Thượng Tứ, Đông Ba, P. Phú Xuân",info:"17k/ly",note:"Nằm trên đường từ Thiên Mụ về Gia Hội.",dist:"5,5 km · ~15 phút",
+    map:"https://www.google.com/maps/place/Ch%C3%A8+M%E1%BB%A3+T%C3%B4n+%C4%90%C3%ADch/@16.4690466,107.5850157,17z/data=!4m6!3m5!1s0x3141a13065375f0f:0x1c449355353d15b2!8m2!3d16.4690466!4d107.5850157!16s%2Fg%2F11c4tb28kd"},
+   {time:"18:15",kind:"food",hr:true,name:"Bánh Bèo Nậm Lọc Huế Xưa",cat:"Bánh Huế",dish:"Bánh bèo, nậm, bánh lọc",addr:"Đường Nguyễn Bỉnh Khiêm, Gia Hội",note:"Sheet ghi quán bán trưa và xế. Nếu đã đóng, ăn ngay sau Xôi Ngô Đức Kế buổi sáng.",dist:"1,8 km · ~6 phút",
+    map:"https://www.google.com/maps/place/Qu%C3%A1n+B%C3%A1nh+B%C3%A8o+N%E1%BA%ADm+L%E1%BB%8Dc+Hu%E1%BA%BF+X%C6%B0a/@16.4819779,107.5896761,17z/data=!4m6!3m5!1s0x3141a0d884d0af8f:0xaee706b9b3cdd8f6!8m2!3d16.4819779!4d107.5896761!16s%2Fg%2F11hbg8pxg1"},
+   {time:"19:00",end:"19:40",kind:"cafe",name:"Giao Cafe",dish:"Cafe trứng",addr:"118 Chi Lăng, Phú Cát, P. Phú Xuân",note:"Có ngõ nhỏ màu vàng treo cờ, check-in được.",dist:"0,5 km · ~3 phút",
+    map:"https://www.google.com/maps/place/Giao+Cafe/@16.4779331,107.5872564,17z/data=!3m1!4b1!4m6!3m5!1s0x3141a141be0faeeb:0x3bb22e58af83eb6d!8m2!3d16.477928!4d107.5898367!16s%2Fg%2F11mb0fw4wd"},
+   {time:"19:50",kind:"food",hr:true,name:"Ốc Hẻm Huế",cat:"Ốc",dish:"Các món ốc",addr:"Gia Hội, P. Phú Xuân",info:"Ngon, đông khách",dist:"0,6 km · ~3 phút",
+    map:"https://www.google.com/maps/place/%E1%BB%90c+H%E1%BA%BBm+Hu%E1%BA%BF/@16.4791391,107.5892809,17z/data=!4m6!3m5!1s0x3141a1441d8fb92f:0x9292b0aea10208a9!8m2!3d16.4791391!4d107.5892809!16s%2Fg%2F11t_hxv8x0"},
+   {time:"20:45",kind:"food",hr:true,name:"Bún bò O Ty",cat:"Bún bò Huế",dish:"Bún bò Huế (bữa tối)",addr:"Đường Nguyễn Du, Phú Cát, P. Phú Xuân",info:"Từ 30k/tô · bán tối/khuya",dist:"Sát Ốc Hẻm · đi bộ 1 phút",
+    map:"https://www.google.com/maps/place/B%C3%BAn+b%C3%B2+O+T%C3%BD/@16.4789827,107.58683,17z/data=!3m1!4b1!4m6!3m5!1s0x3141a12703a7aebf:0x9fe679eb0c34270a!8m2!3d16.4789776!4d107.5894103!16s%2Fg%2F11c6pqt0yg"}
+  ],
+  sights:["Đại Nội (Hoàng Thành)","Chợ Tây Lộc – đồ 2hand","Tường thành Lê Duẩn","Lăng Khải Định","Chùa Thiên Mụ – hoàng hôn","Phố cổ Gia Hội về đêm"]
+ },
+ t2: {
+  title: "Tour 2 – Bờ Nam",
+  area: "An Cựu – Đồi Thiên An – Vỹ Dạ – Phố Tây",
+  desc: "Cả ngày. Sáng: xôi, cà phê retro ven sông, đồi Thiên An. Trưa: bún mắm heo quay. Chiều: bánh ép, vịt lộn. Tối: hoàng hôn sông Hương, cá viên, bún thịt nướng, kết thúc bằng bia ở Phố Tây.",
+  total: "~25 km",
+  routes: [
+   ["Chỉ đường: Sáng → Chiều","https://www.google.com/maps/dir/16.4586672,107.5985064/16.4563909,107.6017607/16.4105291,107.5823373/16.4607647,107.6056488/16.4613952,107.604454/16.4585147,107.6091045"],
+   ["Chỉ đường: Chiều → Tối","https://www.google.com/maps/dir/16.4585147,107.6091045/16.4568109,107.5939576/16.4662437,107.5889544/16.4649746,107.5874454/16.4650454,107.5887145/16.4682284,107.6006988/16.4691608,107.5957886"]
+  ],
+  stops: [
+   {time:"07:00",kind:"food",hr:true,name:"Xôi Dì Gái",cat:"Xôi",dish:"Xôi lộn xộn",addr:"Khu Phan Đình Phùng, P. Thuận Hóa",info:"Từ 15k",
+    map:"https://www.google.com/maps/place/X%C3%B4i+D%C3%AC+G%C3%A1i/@16.4586672,107.5985064,17z/data=!4m6!3m5!1s0x3141a132d7dbeebf:0xad71d0cea12775e5!8m2!3d16.4586672!4d107.5985064!16s%2Fg%2F11vbtt3glx"},
+   {time:"07:45",end:"08:45",kind:"cafe",name:"Xưởng 1976 Cafe",dish:"Thái xanh / thái đỏ trân châu",addr:"12 Hải Triều, An Đông, P. An Cựu",note:"Quán retro gần 10 năm, nhìn ra sông và chợ An Cựu.",dist:"0,6 km · ~3 phút",
+    map:"https://www.google.com/maps/place/C%C3%A0+ph%C3%AA+1976+cs1/@16.456396,107.5991804,17z/data=!3m1!4b1!4m6!3m5!1s0x3141a18cc492e485:0xdfeb13920d226a18!8m2!3d16.4563909!4d107.6017607!16s%2Fg%2F11r9zclrcq"},
+   {time:"08:50",end:"10:15",kind:"sight",name:"Đồi Thiên An",addr:"Thủy Bằng, P. Thủy Xuân (phía Nam thành phố)",note:"Xong quay về thành phố, ăn uống tiếp theo tuyến cũ.",dist:"7,3 km · ~20 phút",map:M("Đồi Thiên An Huế")},
+   {time:"10:45",end:"11:45",kind:"cafe",name:"de b&b house",dish:"Trà ô long sữa, ô long kem sữa, tiramisu",addr:"13 Lê Minh, An Đông, P. An Cựu",note:"Có 3 bé mèo. Quán đóng cửa khoảng 17h. Cách Donald Trung 240 m.",dist:"9 km · ~25 phút (từ Đồi Thiên An về)",
+    map:"https://www.google.com/maps/place/de+b%26b+house/@16.4607698,107.6030685,17z/data=!3m1!4b1!4m6!3m5!1s0x3141a187710579d7:0x8b2b421db38d760!8m2!3d16.4607647!4d107.6056488!16s%2Fg%2F11vsvjk_yp"},
+   {time:"12:00",kind:"food",hr:true,name:"Donald Trung Huế",cat:"Bún mắm heo quay",dish:"Bún mắm nêm heo quay (không gọi bánh tráng cuốn)",addr:"28 Hoàng Văn Thụ, P. Vỹ Dạ",info:"Từ 50k/phần bún",note:"“Đỉnh kao ẩm thực… mắm nêm đỉnh chóp”",dist:"0,24 km · đi bộ 3 phút",
+    map:"https://www.google.com/maps/place/TI%E1%BB%86M+%C4%82N+DONALD+TRUNG/@16.4613952,107.604454,17z/data=!4m6!3m5!1s0x3141a11398950edf:0x15a6cd9cf4d5615d!8m2!3d16.4613952!4d107.604454!16s%2Fg%2F11fy4c9fjl"},
+   {time:"14:30",kind:"food",hr:true,name:"Tiệm bánh ép 1992",cat:"Bánh ép",dish:"Bánh ép",addr:"Khu An Đông, P. An Cựu",info:"Ngon, đẫm thịt, bột hơi dai",dist:"0,75 km · ~3 phút",
+    map:"https://www.google.com/maps/place/Ti%E1%BB%87m+b%C3%A1nh+%C3%A9p+1992/@16.4585147,107.6091045,17z/data=!4m6!3m5!1s0x3141a1581796c887:0xae0403180c0559f8!8m2!3d16.4585147!4d107.6091045!16s%2Fg%2F11twhypz4f"},
+   {time:"16:00",kind:"food",hr:true,name:"Vịt lộn um bầu AT&F",cat:"Vịt lộn",dish:"Trứng lộn um bầu, mì xào trứng lộn, cút chiên xù",addr:"Đường Nguyễn Khuyến, P. Thuận Hóa",dist:"2,2 km · ~7 phút",
+    map:"https://www.google.com/maps/place/V%E1%BB%8Bt+l%E1%BB%99n+um+b%E1%BA%A7u+AT%26F/@16.4568109,107.5939576,17z/data=!4m6!3m5!1s0x3141a19f1f05906f:0x59c8479837d45cae!8m2!3d16.4568109!4d107.5939576!16s%2Fg%2F11jz69_hbn"},
+   {time:"17:00",end:"18:00",kind:"cafe",name:"Không Gian Sách và Văn Hoá Huế",dish:"Ngồi ngoài trời, nhìn ra sông Hương và cầu Trường Tiền",addr:"23–25 Lê Lợi, Vĩnh Ninh, P. Thuận Hóa",note:"Ngắm hoàng hôn trên sông Hương.",dist:"1,4 km · ~5 phút",
+    map:"https://www.google.com/maps/place/KH%C3%94NG+GIAN+S%C3%81CH+V%C3%80+V%C4%82N+HO%C3%81+HU%E1%BA%BE/@16.4662488,107.5863741,17z/data=!3m1!4b1!4m6!3m5!1s0x3141a1001fc18775:0x437c7439ab9e2f14!8m2!3d16.4662437!4d107.5889544!16s%2Fg%2F11ww0l8s06"},
+   {time:"18:15",kind:"food",hr:true,name:"Cá Viên O Huệ",cat:"Ăn vặt",dish:"Cá viên chiên, xiên que",addr:"Đường Bà Huyện Thanh Quan, Vĩnh Ninh",info:"10k/xiên · mua 10 tặng 1",note:"Ăn xong dạo cầu Trường Tiền. Sau 22h O chuyển xe sang đường Hoàng Hoa Thám.",dist:"0,29 km · đi bộ 4 phút",
+    map:"https://www.google.com/maps/place/C%C3%A1+Vi%C3%AAn+O+Hu%E1%BB%87/@16.4649746,107.5874454,17z/data=!4m6!3m5!1s0x3141a10057c25067:0xbc9269b154c19551!8m2!3d16.4649746!4d107.5874454!16s%2Fg%2F11lnl9ckbp"},
+   {time:"18:45",kind:"food",name:"Ngọc Chè Bưởi – Trương Định",cat:"Chè",dish:"Chè bưởi",addr:"Khu 30 Trương Định, Vĩnh Ninh, P. Thuận Hóa",info:"Khoảng 20k/ly (sheet ghi chưa chắc)",note:"Không tô xanh trong sheet và chủ sheet thấy hơi ngọt; chọn vì cách Cá viên chỉ 190 m. Có thể gọi ít ngọt.",dist:"0,19 km · đi bộ 3 phút",
+    map:"https://www.google.com/maps/place/NG%E1%BB%8CC+CH%C3%88+B%C6%AF%E1%BB%9EI+-+TR%C6%AF%C6%A0NG+%C4%90%E1%BB%8ANH/@16.4650454,107.5887145,17z/data=!4m6!3m5!1s0x3141a1733b44edc7:0x9905b4101091f08c!8m2!3d16.4650454!4d107.5887145!16s%2Fg%2F11ryqvmzzq"},
+   {time:"19:45",kind:"food",hr:true,name:"Thìn bún thịt nướng",cat:"Cháo, bún",dish:"Bún thịt nướng",addr:"Đường Văn Cao, P. Vỹ Dạ",dist:"1,8 km · ~6 phút",
+    map:"https://www.google.com/maps/place/Th%C3%ACn+b%C3%BAn+th%E1%BB%8Bt+n%C6%B0%E1%BB%9Bng/@16.4682335,107.5958332,17z/data=!3m1!4b1!4m6!3m5!1s0x3141a1a4cb51b0e3:0x5a65f7d9047ace0f!8m2!3d16.4682284!4d107.6006988!16s%2Fg%2F11sxxf6mk5"},
+   {time:"21:00",kind:"food",hr:true,name:"Quán bia Ủa?",cat:"Nhậu",dish:"Bia + đồ nhắm",addr:"Đường Võ Thị Sáu (Phố Tây)",note:"Muốn ăn Cơm niêu Chạn thì quán ở ngay cạnh, cũng trên Võ Thị Sáu.",dist:"0,7 km · ~3 phút",
+    map:"https://www.google.com/maps/place/Qu%C3%A1n+bia+%E1%BB%A6a%3F/@16.4691608,107.5957886,17z/data=!4m6!3m5!1s0x3141a191d647371d:0x9d53b7e32ddcb634!8m2!3d16.4691608!4d107.5957886!16s%2Fg%2F11p74r22kp"}
+  ],
+  sights:["Đồi Thiên An","Chợ An Cựu","Bờ sông Lê Lợi","Cầu Trường Tiền lên đèn","Phố đi bộ Phố Tây","Vỹ Dạ"]
+ }
+};
+
+const esc = s => String(s).replace(/[&<>"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+const a = (u, t) => `<a href="${esc(u)}" target="_blank" rel="noopener">${t}</a>`;
+document.getElementById("app").innerHTML = Object.values(TOURS).map(t => `
+  <h2>${esc(t.title)}</h2>
+  <p class="area">${esc(t.area)} · ${esc(t.total)}</p>
+  <div class="routes">${t.routes.map(r => a(r[1], "🧭 " + esc(r[0].replace("Chỉ đường: ", "")))).join("")}</div>
+  <table>
+    <thead><tr><th>Giờ</th><th>Điểm · Món</th><th>Map</th></tr></thead>
+    <tbody>${t.stops.map(s => {
+      const k = [];
+      if (s.opt) k.push('<span class="k opt">TÙY CHỌN</span>');
+      if (s.kind === "cafe") k.push('<span class="k cafe">☕</span>');
+      if (s.kind === "sight" || s.sightToo) k.push('<span class="k sight">📍</span>');
+      const d = [s.dish, s.info].filter(Boolean).join(" · ");
+      return `<tr class="${s.kind}${s.opt ? " opt" : ""}">
+        <td class="t">${esc(s.time)}</td>
+        <td><span class="n">${esc(s.name)}</span>${k.join("")}
+          ${d ? `<div class="d">${esc(d)}</div>` : ""}
+          ${s.alt ? `<div class="alt">Thay thế: ${a(s.alt[1], esc(s.alt[0]))}</div>` : ""}</td>
+        <td class="m">${a(s.map, "Maps")}</td></tr>`;
+    }).join("")}</tbody>
+  </table>`).join("");
+</script>
+</body>
+</html>
