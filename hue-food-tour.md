@@ -411,3 +411,32 @@ Nấm Pottery: phòng 206, khu tập thể 19 Nguyễn Trường Tộ (cùng t�
 | 12:00 | Checkout | |
 
 Chỉ đường: https://www.google.com/maps/dir/16.4604975,107.5902821/16.4558853,107.5867182/16.4572104,107.5780953
+
+---
+
+## Thay đổi lần 8
+
+> - HUE CAFE ROASTERY đổi thành Tan cafe 86 Đinh Tiên Hoàng
+> - Cơm hến bé Đen - đổi thành cơm hến Hoa Đông
+> - bỏ Không Gian Sách và Văn Hoá Huế
+> - bỏ 16:00 Vịt lộn um bầu AT&F
+> - chỗ nào thời gian trống dài khoảng >1 tiếng thì tạo 1 dòng và để trống, để tôi thiết kế thêm
+
+**Tour 1 (~53 km):** 12:15 Cơm hến Hoa Đông (HR, 15k/tô, gần cồn Hến, cách Lầu Tứ Phương 5 km) · 19:15 Tan. cafe – 86 Đinh Tiên Hoàng (sheet không có link riêng, link Maps là tìm kiếm theo địa chỉ). Không có khoảng trống > 1 tiếng.
+
+**Tour 2 (~9 km):**
+
+| Giờ | Điểm |
+|---|---|
+| 07:00 | Xôi Dì Gái |
+| 07:45–09:30 | ☕ Xưởng 1976 |
+| 10:00–11:45 | ☕ de b&b house |
+| 12:00 | Donald Trung |
+| 13:00–14:30 | *(trống)* |
+| 14:30 | Bánh ép 1992 |
+| 15:15–18:15 | *(trống)* |
+| 18:15 | Thìn bún thịt nướng |
+| 19:15 | Ngọc Chè Bưởi |
+| 20:00 | Quán bia Ủa? |
+
+**Tour 3:** không đổi, không có khoảng trống > 1 tiếng.
