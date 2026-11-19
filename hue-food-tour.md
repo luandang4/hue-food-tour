@@ -392,3 +392,22 @@ Tour cả ngày ở bờ Nam sông Hương. Sáng: xôi, cà phê retro ven sôn
 
 - Sáng → chiều: https://www.google.com/maps/dir/16.4586672,107.5985064/16.4563909,107.6017607/16.4607647,107.6056488/16.4613952,107.604454/16.4585147,107.6091045
 - Chiều → tối: https://www.google.com/maps/dir/16.4585147,107.6091045/16.4568109,107.5939576/16.4662437,107.5889544/16.4682284,107.6006988/16.4650454,107.5887145/16.4691608,107.5957886
+
+---
+
+## Thay đổi lần 7 – Thêm Tour 3 (buổi sáng ngày về)
+
+> Thêm tuor 3 gồm: Ăn sáng, Cafe, làm gốm ở Nấm Pottery, chụp photobooth (ko cần chọn quán), ăn trưa, checkout (12h00). tuor này trong buổi sáng
+
+Nấm Pottery: phòng 206, khu tập thể 19 Nguyễn Trường Tộ (cùng tầng với Gác Trịnh và NGHIA Coffee trong sheet Cafe). Workshop sáng 9:00–12:00, chiều 14:00–17:00 (nguồn khác nói chỉ thứ 6 và cuối tuần), SĐT 094 447 98 77, sản phẩm nung xong sau 3–4 tuần. Nguồn: nampottery.com, threads.com/@nam_pottery.
+
+| Giờ | Điểm | Ghi chú |
+|---|---|---|
+| 07:15 | Cơm hến, bún hến Lành (HR) | Ăn bún hến, 13k/tô. Dự phòng: Bánh mỳ heo quay Điện Lực (HR) |
+| 08:00–08:50 | ☕ Gác Trịnh | Phòng 203, cùng tầng Nấm Pottery · 0,9 km. Dự phòng: NGHIA Coffee |
+| 09:00–10:30 | Nấm Pottery – làm gốm | Đặt trước |
+| 10:40–11:10 | Chụp photobooth | Tự chọn quán |
+| 11:15 | Quán cơm Hoa Yêm (HR) | Gần ga Huế · 1,1 km. Dự phòng: Cơm Mạ Nấu |
+| 12:00 | Checkout | |
+
+Chỉ đường: https://www.google.com/maps/dir/16.4604975,107.5902821/16.4558853,107.5867182/16.4572104,107.5780953

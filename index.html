@@ -110,6 +110,31 @@ const TOURS = {
     map:"https://www.google.com/maps/place/Qu%C3%A1n+bia+%E1%BB%A6a%3F/@16.4691608,107.5957886,17z/data=!4m6!3m5!1s0x3141a191d647371d:0x9d53b7e32ddcb634!8m2!3d16.4691608!4d107.5957886!16s%2Fg%2F11p74r22kp"}
   ],
   sights:["Chợ An Cựu","Bờ sông Lê Lợi","Cầu Trường Tiền lên đèn","Phố đi bộ Phố Tây","Vỹ Dạ"]
+ },
+ t3: {
+  title: "Tour 3 – Sáng ngày về",
+  area: "Vĩnh Ninh – Nguyễn Trường Tộ – Ga Huế (bờ Nam)",
+  desc: "Buổi sáng trước khi trả phòng: bún hến, cafe Gác Trịnh, làm gốm ở Nấm Pottery (cùng toà nhà), chụp photobooth, ăn trưa sớm rồi checkout 12:00.",
+  total: "~2 km (chưa tính đường về khách sạn)",
+  routes: [
+   ["Chỉ đường: Sáng","https://www.google.com/maps/dir/16.4604975,107.5902821/16.4558853,107.5867182/16.4572104,107.5780953"]
+  ],
+  stops: [
+   {time:"07:15",kind:"food",hr:true,name:"Cơm hến, bún hến Lành",cat:"Cơm/bún hến",dish:"Bún hến (sáng không ăn cơm)",info:"13k/tô",
+    alt:["Bánh mỳ heo quay Điện Lực – từ 10k/ổ, bán cả ngày","https://www.google.com/maps/place/B%C3%A1nh+M%E1%BB%B3+Heo+Quay+%C4%90i%E1%BB%87n+L%E1%BB%B1c/@16.4571025,107.5731935,15z/data=!4m10!1m2!2m1!1zYsOhbmggbcOsIGh14bq_!3m6!1s0x3141a140ca5e4c9d:0x2dc63c11505391bc!8m2!3d16.4571025!4d107.5922479!15sCg9iw6FuaCBtw6wgaHXhur9aESIPYsOhbmggbcOsIGh14bq_kgEUZmFzdF9mb29kX3Jlc3RhdXJhbnTgAQA!16s%2Fg%2F11f0_stzz9"],
+    map:"https://www.google.com/maps/place/C%C6%A1m+h%E1%BA%BFn,+b%C3%BAn+h%E1%BA%BFn+L%C3%A0nh/@16.4584265,107.5442169,14z/data=!4m10!1m2!2m1!1zdGnhu4dtIGPGoW0gaHXhur8!3m6!1s0x3141a1d4b4a734ed:0x908f8827a3866af6!8m2!3d16.4604975!4d107.5902821!15sChF0aeG7h20gY8ahbSBodeG6v1oTIhF0aeG7h20gY8ahbSBodeG6v5IBBmJpc3Ryb-ABAA!16s%2Fg%2F11j6ywdys_"},
+   {time:"08:00",end:"08:50",kind:"cafe",name:"Gác Trịnh",dish:"Xanh, cổ kính – nơi quay phim “Em và Trịnh”",info:"Tầng 2, khu tập thể 19 Nguyễn Trường Tộ (phòng 203) · 0,9 km",
+    alt:["NGHIA Coffee – cùng tầng, view nhà thờ Phú Cam","https://www.google.com/maps/place/NGHIA+Coffee/@16.4557942,107.5841956,17z/data=!3m1!4b1!4m6!3m5!1s0x3141a1b8597b165b:0x7e946f4c4ff929f2!8m2!3d16.4557891!4d107.5867759!16s%2Fg%2F11kc19hntj"],
+    map:"https://www.google.com/maps/place/G%C3%A1c+Tr%E1%BB%8Bnh/@16.4557558,107.586695,20.7z/data=!4m6!3m5!1s0x3141a154ea29492b:0xa774eaca38fa64bd!8m2!3d16.4558853!4d107.5867182!16s%2Fg%2F11f772txfj"},
+   {time:"09:00",end:"10:30",kind:"sight",name:"Nấm Pottery – làm gốm",dish:"Workshop sáng 9:00–12:00",info:"Phòng 206, khu tập thể 19 Nguyễn Trường Tộ – cùng tầng với Gác Trịnh · Đặt trước: 094 447 98 77 · Sản phẩm nung xong sau 3–4 tuần, hỏi gửi ship",
+    map:"https://www.google.com/maps/place/NGHIA+Coffee/@16.4557942,107.5841956,17z/data=!3m1!4b1!4m6!3m5!1s0x3141a1b8597b165b:0x7e946f4c4ff929f2!8m2!3d16.4557891!4d107.5867759!16s%2Fg%2F11kc19hntj"},
+   {time:"10:40",end:"11:10",kind:"sight",name:"Chụp photobooth",dish:"Chọn quán gần đó",
+    map:M("photobooth gần Nguyễn Trường Tộ Huế")},
+   {time:"11:15",kind:"food",hr:true,name:"Quán cơm Hoa Yêm",cat:"Cơm",dish:"Cơm trưa",info:"Ngay ga Huế · ~1,1 km",
+    alt:["Cơm Mạ Nấu – 70k/mâm 2 người, gần ĐH Y Dược","https://www.google.com/maps/place/C%C6%A1m+M%E1%BA%A1+N%E1%BA%A5u/@16.4611757,107.5836691,17z/data=!4m11!1m3!2m2!1zY8ahbSB04bqlbQ!6e5!3m6!1s0x3141a1b47cccfde7:0x51648d84830fc25d!8m2!3d16.4611757!4d107.5884327!15sCgpjxqFtIHThuqVtWgwiCmPGoW0gdOG6pW2SAQpyZXN0YXVyYW504AEA!16s%2Fg%2F11h5nrdsps"],
+    map:"https://www.google.com/maps/place/Qu%C3%A1n+c%C6%A1m+Hoa+Y%C3%AAm/@16.4584265,107.5442169,14z/data=!4m11!1m3!2m2!1zdGnhu4dtIGPGoW0gaHXhur8!6e5!3m6!1s0x3141a15c7f2f8b77:0x203046c74235fd20!8m2!3d16.4572104!4d107.5780953!15sChF0aeG7h20gY8ahbSBodeG6v1oTIhF0aeG7h20gY8ahbSBodeG6v5IBCnJlc3RhdXJhbnTgAQA!16s%2Fg%2F11j6hlxt0p"},
+   {time:"12:00",kind:"sight",name:"Checkout khách sạn",dish:"Về khách sạn trả phòng"}
+  ]
  }
 };
 
@@ -132,7 +157,7 @@ document.getElementById("app").innerHTML = Object.values(TOURS).map(t => `
         <td><span class="n">${esc(s.name)}</span>${k.join("")}
           ${d ? `<div class="d">${esc(d)}</div>` : ""}
           ${s.alt ? `<div class="alt">Thay thế: ${a(s.alt[1], esc(s.alt[0]))}</div>` : ""}</td>
-        <td class="m">${a(s.map, "Maps")}</td></tr>`;
+        <td class="m">${s.map ? a(s.map, "Maps") : "—"}</td></tr>`;
     }).join("")}</tbody>
   </table>`).join("");
 </script>
