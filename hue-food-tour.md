@@ -343,3 +343,52 @@ Tour cả ngày ở bờ Nam sông Hương. Sáng: xôi, cà phê retro ven sôn
 - Gần trưa: Afternoon Coffee → **Lầu Tứ Phương Vô Sự** (cùng đường Đặng Thái Thân, view cổng Hòa Bình). Dự phòng: Đề-Pô Cafe.
 - Chiều tối: Giao Cafe → **HUE CAFE ROASTERY** (131 Huỳnh Thúc Kháng, gần chợ Đông Ba, view sông). Dự phòng: Mê – Cafe Bến Xưa.
 - Link chỉ đường Tour 1 đã cập nhật tọa độ mới.
+
+---
+
+## Thay đổi lần 6
+
+> - Xóa Quán Mì Thiện Mỹ ra khỏi tour, ko cần thay gì vào
+> - đổi Bún cảnh vân thành Bún bò Loan
+> - chiều tuor 1 chúng tôi sẽ đi lăng Khải Định sau đó là Đồi Thiên an luôn, ko đi đồi và tuor 2 nữa
+> - bỏ 20:45 Bún bò O Ty
+> - bỏ Cá Viên O Huệ , đổi thành Thìn bún thịt nướng
+
+### Tour 1 – Bờ Bắc (~46 km)
+
+| Giờ | Điểm | Quãng đường |
+|---|---|---|
+| 06:30 | Bún bò Loan (tùy chọn) – [Maps](https://www.google.com/maps/place/B%C3%BAn+b%C3%B2+Loan/@16.463742,107.5637965,15z/data=!4m10!1m2!2m1!1zYsO6biBiw7IgaHXhur8!3m6!1s0x3141a13aa0ab3513:0x1c0b206dc50f79b!8m2!3d16.4552769!4d107.5879102!15sCg5iw7puIGLDsiBodeG6v1oQIg5iw7puIGLDsiBodeG6v5IBCnJlc3RhdXJhbnTgAQA!16s%2Fg%2F11ryhjx4y9) | – |
+| 07:15 | Xôi Ngô Đức Kế | 4,4 km |
+| 07:45 | ☕ Phê La | 2 km |
+| 08:45–11:00 | Đại Nội | 1,8 km |
+| 11:15 | ☕ Lầu Tứ Phương Vô Sự | 1,4 km |
+| 12:15 | Cơm hến bé Đen – chợ Tây Lộc | 0,7 km |
+| 13:30–14:45 | Lăng Khải Định | 10,8 km |
+| 15:00–16:00 | Đồi Thiên An | 3,2 km |
+| 16:30–17:30 | Chùa Thiên Mụ + đậu hũ | 10,1 km |
+| 17:50 | Chè Mợ Tôn Đích | 5,5 km |
+| 18:30 | Bánh bèo nậm lọc Huế Xưa | 1,8 km |
+| 19:15–19:55 | ☕ HUE CAFE ROASTERY | 1,6 km |
+| 20:05 | Ốc Hẻm Huế | 1,2 km |
+
+- Sáng → trưa: https://www.google.com/maps/dir/16.4552769,107.5879102/16.4768718,107.5834445/16.4671334,107.5905512/16.4678107,107.5790879/16.471901,107.575877/16.4733387,107.5672745
+- Chiều → tối: https://www.google.com/maps/dir/16.4733387,107.5672745/16.3990174,107.5903393/16.4105291,107.5823373/16.4537195,107.5445808/16.4690466,107.5850157/16.4819779,107.5896761/16.4769291,107.5862168/16.4791391,107.5892809
+
+### Tour 2 – Bờ Nam (~12 km)
+
+| Giờ | Điểm | Quãng đường |
+|---|---|---|
+| 07:00 | Xôi Dì Gái | – |
+| 07:45–09:30 | ☕ Xưởng 1976 | 0,6 km |
+| 10:00–11:45 | ☕ de b&b house | 1,5 km |
+| 12:00 | Donald Trung (bún mắm heo quay) | 0,24 km |
+| 14:30 | Bánh ép 1992 | 0,75 km |
+| 16:00 | Vịt lộn AT&F | 2,2 km |
+| 17:00–18:00 | ☕ Không Gian Sách | 1,4 km |
+| 18:15 | Thìn bún thịt nướng | 1,8 km |
+| 19:15 | Ngọc Chè Bưởi – Trương Định | 1,7 km |
+| 20:00 | Quán bia Ủa? | 1,2 km |
+
+- Sáng → chiều: https://www.google.com/maps/dir/16.4586672,107.5985064/16.4563909,107.6017607/16.4607647,107.6056488/16.4613952,107.604454/16.4585147,107.6091045
+- Chiều → tối: https://www.google.com/maps/dir/16.4585147,107.6091045/16.4568109,107.5939576/16.4662437,107.5889544/16.4682284,107.6006988/16.4650454,107.5887145/16.4691608,107.5957886
