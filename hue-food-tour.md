@@ -440,3 +440,55 @@ Chỉ đường: https://www.google.com/maps/dir/16.4604975,107.5902821/16.45588
 | 20:00 | Quán bia Ủa? |
 
 **Tour 3:** không đổi, không có khoảng trống > 1 tiếng.
+
+---
+
+## Thay đổi lần 9
+
+> - Chùa Thiên Mụ + Đậu hũ📍 - đưa sang tour 2
+> - bỏ Gác Trịnh, ngày 3 này sẽ ko uống cafe và sẽ ăn trưa sau khi checkout, sau khi chụp ảnh sẽ về nghỉ ngơi
+> - Quán cơm Hoa Yêm đổi thành "Cơm nhà hàng" (tôi sẽ tự tìm quán sau)
+
+**Tour 1 (~47 km)**
+
+| Giờ | Điểm |
+|---|---|
+| 06:30 | Bún bò Loan (tùy chọn) |
+| 07:15 | Xôi Ngô Đức Kế |
+| 07:45–08:30 | ☕ Phê La |
+| 08:45–11:00 | Đại Nội |
+| 11:15–12:00 | ☕ Lầu Tứ Phương Vô Sự |
+| 12:15 | Cơm hến Hoa Đông |
+| 13:30–14:45 | Lăng Khải Định |
+| 15:00–16:00 | Đồi Thiên An |
+| 16:30 | Chè Mợ Tôn Đích (9,3 km từ Đồi Thiên An) |
+| 17:15 | Bánh bèo nậm lọc Huế Xưa (giờ xế, khớp giờ bán trong sheet) |
+| 18:00–19:15 | *(trống)* |
+| 19:15–19:55 | ☕ Tan. cafe – 86 Đinh Tiên Hoàng |
+| 20:05 | Ốc Hẻm Huế |
+
+**Tour 2 (~22 km)**
+
+| Giờ | Điểm |
+|---|---|
+| 07:00 | Xôi Dì Gái |
+| 07:45–09:30 | ☕ Xưởng 1976 |
+| 10:00–11:45 | ☕ de b&b house |
+| 12:00 | Donald Trung |
+| 13:00–14:30 | *(trống)* |
+| 14:30 | Bánh ép 1992 |
+| 16:00–17:30 | Chùa Thiên Mụ + đậu hũ, hoàng hôn (8,2 km từ bánh ép) |
+| 18:15 | Thìn bún thịt nướng (7 km từ Thiên Mụ) |
+| 19:15 | Ngọc Chè Bưởi |
+| 20:00 | Quán bia Ủa? |
+
+**Tour 3**
+
+| Giờ | Điểm |
+|---|---|
+| 08:00 | Cơm hến, bún hến Lành (ăn bún hến) |
+| 09:00–10:30 | Nấm Pottery – làm gốm |
+| 10:40–11:10 | Chụp photobooth |
+| 11:15–12:00 | Về khách sạn nghỉ ngơi |
+| 12:00 | Checkout |
+| 12:30 | Cơm nhà hàng (tự chọn quán) |

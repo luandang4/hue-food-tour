@@ -45,12 +45,12 @@ const M = s => "https://www.google.com/maps/search/?api=1&query=" + encodeURICom
 const TOURS = {
  t1: {
   title: "Tour 1 – Bờ Bắc",
-  area: "Kinh Thành – Tây Lộc – Lăng Khải Định – Đồi Thiên An – Thiên Mụ – Gia Hội",
-  desc: "Cả ngày. Sáng: bún bò Loan, xôi, Phê La rồi vào Đại Nội. Trưa: cơm hến chợ Tây Lộc. Chiều: lăng Khải Định, đồi Thiên An, hoàng hôn ở Thiên Mụ. Tối: cụm Gia Hội.",
-  total: "~53 km",
+  area: "Kinh Thành – Gia Hội – Lăng Khải Định – Đồi Thiên An",
+  desc: "Cả ngày. Sáng: bún bò Loan, xôi, Phê La rồi vào Đại Nội. Trưa: cơm hến chợ Tây Lộc. Chiều: lăng Khải Định, đồi Thiên An, chè và bèo nậm lọc. Tối: cafe, ốc.",
+  total: "~47 km",
   routes: [
    ["Chỉ đường: Sáng → Trưa","https://www.google.com/maps/dir/16.4552769,107.5879102/16.4768718,107.5834445/16.4671334,107.5905512/16.4678107,107.5790879/16.471901,107.575877/16.4792689,107.5936163"],
-   ["Chỉ đường: Chiều → Tối","https://www.google.com/maps/dir/16.4792689,107.5936163/16.3990174,107.5903393/16.4105291,107.5823373/16.4537195,107.5445808/16.4690466,107.5850157/16.4819779,107.5896761/16.4733122,107.5815629/16.4791391,107.5892809"]
+   ["Chỉ đường: Chiều → Tối","https://www.google.com/maps/dir/16.4792689,107.5936163/16.3990174,107.5903393/16.4105291,107.5823373/16.4690466,107.5850157/16.4819779,107.5896761/16.4733122,107.5815629/16.4791391,107.5892809"]
   ],
   stops: [
    {time:"06:30",kind:"food",opt:true,hr:true,name:"Bún bò Loan",cat:"Bún bò Huế",dish:"Bún bò Huế (ăn sáng)",addr:"P. Thuận Hóa (bờ Nam)",info:"Từ 30k/tô",note:"Sheet: “Gu ba mẹ tui – 2 con người rất khó tính vụ ăn uống”.",
@@ -67,26 +67,26 @@ const TOURS = {
     map:"https://www.google.com/maps/place/C%C6%A1m+h%E1%BA%BFn+Hoa+%C4%90%C3%B4ng/@16.4584265,107.5442169,14z/data=!4m10!1m2!2m1!1zdGnhu4dtIGPGoW0gaHXhur8!3m6!1s0x3141a120eec0e6c3:0x5e3ba950477012ba!8m2!3d16.4792689!4d107.5936163!15sChF0aeG7h20gY8ahbSBodeG6v1oTIhF0aeG7h20gY8ahbSBodeG6v5IBFXZpZXRuYW1lc2VfcmVzdGF1cmFudOABAA!16s%2Fg%2F11bws53nys"},
    {time:"13:30",end:"14:45",kind:"sight",name:"Lăng Khải Định",addr:"Thủy Bằng, P. Thủy Xuân (phía Nam thành phố)",dist:"12,4 km · ~35 phút",map:M("Lăng Khải Định Huế")},
    {time:"15:00",end:"16:00",kind:"sight",name:"Đồi Thiên An",addr:"Thủy Bằng, P. Thủy Xuân (phía Nam thành phố)",note:"Đi luôn sau Lăng Khải Định, rồi lên Thiên Mụ.",dist:"3,2 km · ~10 phút",map:M("Đồi Thiên An Huế")},
-   {time:"16:30",end:"17:30",kind:"food",hr:true,sightToo:true,name:"Chùa Thiên Mụ + Đậu hũ",cat:"Chè",dish:"Đậu hũ (sheet xếp vào nhóm Chè), ngắm hoàng hôn",addr:"Đường Nguyễn Phúc Nguyên, P. Kim Long",info:"5k–10k/ly",note:"Trước chùa có cả một dãy hàng đậu hũ, ngồi hàng nào cũng được.",dist:"10,1 km · ~28 phút",map:M("Chùa Thiên Mụ Huế")},
-   {time:"17:50",kind:"food",hr:true,name:"Chè Mợ Tôn Đích",cat:"Chè",dish:"Chè bột lọc heo quay (đặc sản)",addr:"Khu cửa Thượng Tứ, Đông Ba, P. Phú Xuân",info:"17k/ly",note:"Nằm trên đường từ Thiên Mụ về Gia Hội.",dist:"5,5 km · ~15 phút",
+   {time:"16:30",kind:"food",hr:true,name:"Chè Mợ Tôn Đích",cat:"Chè",dish:"Chè bột lọc heo quay (đặc sản)",addr:"Khu cửa Thượng Tứ, Đông Ba, P. Phú Xuân",info:"17k/ly",note:"Từ Đồi Thiên An về thành phố.",dist:"9,3 km · ~25 phút",
     map:"https://www.google.com/maps/place/Ch%C3%A8+M%E1%BB%A3+T%C3%B4n+%C4%90%C3%ADch/@16.4690466,107.5850157,17z/data=!4m6!3m5!1s0x3141a13065375f0f:0x1c449355353d15b2!8m2!3d16.4690466!4d107.5850157!16s%2Fg%2F11c4tb28kd"},
-   {time:"18:30",kind:"food",hr:true,name:"Bánh Bèo Nậm Lọc Huế Xưa",cat:"Bánh Huế",dish:"Bánh bèo, nậm, bánh lọc",addr:"Đường Nguyễn Bỉnh Khiêm, Gia Hội",note:"Sheet ghi quán bán trưa và xế. Nếu đã đóng, ăn ngay sau Xôi Ngô Đức Kế buổi sáng.",dist:"1,8 km · ~6 phút",
+   {time:"17:15",kind:"food",hr:true,name:"Bánh Bèo Nậm Lọc Huế Xưa",cat:"Bánh Huế",dish:"Bánh bèo, nậm, bánh lọc",addr:"Đường Nguyễn Bỉnh Khiêm, Gia Hội",note:"Sheet ghi quán bán trưa và xế. Giờ 17:15 vẫn trong khung xế.",dist:"1,8 km · ~6 phút",
     map:"https://www.google.com/maps/place/Qu%C3%A1n+B%C3%A1nh+B%C3%A8o+N%E1%BA%ADm+L%E1%BB%8Dc+Hu%E1%BA%BF+X%C6%B0a/@16.4819779,107.5896761,17z/data=!4m6!3m5!1s0x3141a0d884d0af8f:0xaee706b9b3cdd8f6!8m2!3d16.4819779!4d107.5896761!16s%2Fg%2F11hbg8pxg1"},
+   {time:"18:00",end:"19:15",kind:"free",name:""},
    {time:"19:15",end:"19:55",kind:"cafe",name:"Tan. cafe – 86 Đinh Tiên Hoàng",dish:"Industrial, xanh, có bàn cao · cafe muối, matcha latte, cafe bắp",addr:"86 Đinh Tiên Hoàng, P. Phú Xuân (Kinh Thành)",info:"Chủ sheet thích cơ sở này nhất",dist:"1,8 km · ~6 phút",
     map:M("tan. cafe 86 Đinh Tiên Hoàng Huế")},
    {time:"20:05",kind:"food",hr:true,name:"Ốc Hẻm Huế",cat:"Ốc",dish:"Các món ốc",addr:"Gia Hội, P. Phú Xuân",info:"Ngon, đông khách",dist:"2 km · ~6 phút",
     map:"https://www.google.com/maps/place/%E1%BB%90c+H%E1%BA%BBm+Hu%E1%BA%BF/@16.4791391,107.5892809,17z/data=!4m6!3m5!1s0x3141a1441d8fb92f:0x9292b0aea10208a9!8m2!3d16.4791391!4d107.5892809!16s%2Fg%2F11t_hxv8x0"},
   ],
-  sights:["Đại Nội (Hoàng Thành)","Chợ Tây Lộc – đồ 2hand","Lăng Khải Định","Đồi Thiên An","Chùa Thiên Mụ – hoàng hôn","Phố cổ Gia Hội về đêm"]
+  sights:["Đại Nội (Hoàng Thành)","Chợ Tây Lộc – đồ 2hand","Lăng Khải Định","Đồi Thiên An","Phố cổ Gia Hội về đêm"]
  },
  t2: {
   title: "Tour 2 – Bờ Nam",
-  area: "An Cựu – Vỹ Dạ – Vĩnh Ninh – Phố Tây",
-  desc: "Cả ngày. Sáng: xôi, cà phê retro ven sông, cà phê mèo. Trưa: bún mắm heo quay. Chiều: bánh ép, thời gian trống. Tối: bún thịt nướng, chè bưởi, kết thúc bằng bia ở Phố Tây.",
-  total: "~9 km",
+  area: "An Cựu – Vỹ Dạ – Thiên Mụ – Phố Tây",
+  desc: "Cả ngày. Sáng: xôi, cà phê retro ven sông, cà phê mèo. Trưa: bún mắm heo quay. Chiều: bánh ép, hoàng hôn ở chùa Thiên Mụ + đậu hũ. Tối: bún thịt nướng, chè bưởi, kết thúc bằng bia ở Phố Tây.",
+  total: "~22 km",
   routes: [
    ["Chỉ đường: Sáng → Chiều","https://www.google.com/maps/dir/16.4586672,107.5985064/16.4563909,107.6017607/16.4607647,107.6056488/16.4613952,107.604454/16.4585147,107.6091045"],
-   ["Chỉ đường: Chiều → Tối","https://www.google.com/maps/dir/16.4585147,107.6091045/16.4682284,107.6006988/16.4650454,107.5887145/16.4691608,107.5957886"]
+   ["Chỉ đường: Chiều → Tối","https://www.google.com/maps/dir/16.4585147,107.6091045/16.4537195,107.5445808/16.4682284,107.6006988/16.4650454,107.5887145/16.4691608,107.5957886"]
   ],
   stops: [
    {time:"07:00",kind:"food",hr:true,name:"Xôi Dì Gái",cat:"Xôi",dish:"Xôi lộn xộn",addr:"Khu Phan Đình Phùng, P. Thuận Hóa",info:"Từ 15k",
@@ -100,39 +100,35 @@ const TOURS = {
    {time:"13:00",end:"14:30",kind:"free",name:""},
    {time:"14:30",kind:"food",hr:true,name:"Tiệm bánh ép 1992",cat:"Bánh ép",dish:"Bánh ép",addr:"Khu An Đông, P. An Cựu",info:"Ngon, đẫm thịt, bột hơi dai",dist:"0,75 km · ~3 phút",
     map:"https://www.google.com/maps/place/Ti%E1%BB%87m+b%C3%A1nh+%C3%A9p+1992/@16.4585147,107.6091045,17z/data=!4m6!3m5!1s0x3141a1581796c887:0xae0403180c0559f8!8m2!3d16.4585147!4d107.6091045!16s%2Fg%2F11twhypz4f"},
-   {time:"15:15",end:"18:15",kind:"free",name:""},
-   {time:"18:15",kind:"food",hr:true,name:"Thìn bún thịt nướng",cat:"Cháo, bún",dish:"Bún thịt nướng",addr:"Đường Văn Cao, P. Vỹ Dạ",dist:"2 km · ~6 phút",note:"Thay cho Cá Viên O Huệ.",
+   {time:"16:00",end:"17:30",kind:"food",hr:true,sightToo:true,name:"Chùa Thiên Mụ + Đậu hũ",cat:"Chè",dish:"Đậu hũ (sheet xếp vào nhóm Chè), ngắm hoàng hôn",addr:"Đường Nguyễn Phúc Nguyên, P. Kim Long",info:"5k–10k/ly",note:"Trước chùa có cả một dãy hàng đậu hũ, ngồi hàng nào cũng được.",dist:"8,2 km · ~22 phút",map:M("Chùa Thiên Mụ Huế")},
+   {time:"18:15",kind:"food",hr:true,name:"Thìn bún thịt nướng",cat:"Cháo, bún",dish:"Bún thịt nướng",addr:"Đường Văn Cao, P. Vỹ Dạ",dist:"7 km · ~20 phút",note:"Thay cho Cá Viên O Huệ.",
     map:"https://www.google.com/maps/place/Th%C3%ACn+b%C3%BAn+th%E1%BB%8Bt+n%C6%B0%E1%BB%9Bng/@16.4682335,107.5958332,17z/data=!3m1!4b1!4m6!3m5!1s0x3141a1a4cb51b0e3:0x5a65f7d9047ace0f!8m2!3d16.4682284!4d107.6006988!16s%2Fg%2F11sxxf6mk5"},
    {time:"19:15",kind:"food",name:"Ngọc Chè Bưởi – Trương Định",cat:"Chè",dish:"Chè bưởi",addr:"Khu 30 Trương Định, Vĩnh Ninh, P. Thuận Hóa",info:"Khoảng 20k/ly (sheet ghi chưa chắc)",note:"Không tô xanh trong sheet và chủ sheet thấy hơi ngọt; ăn tráng miệng sau bún thịt nướng. Có thể gọi ít ngọt.",dist:"1,7 km · ~5 phút",
     map:"https://www.google.com/maps/place/NG%E1%BB%8CC+CH%C3%88+B%C6%AF%E1%BB%9EI+-+TR%C6%AF%C6%A0NG+%C4%90%E1%BB%8ANH/@16.4650454,107.5887145,17z/data=!4m6!3m5!1s0x3141a1733b44edc7:0x9905b4101091f08c!8m2!3d16.4650454!4d107.5887145!16s%2Fg%2F11ryqvmzzq"},
    {time:"20:00",kind:"food",hr:true,name:"Quán bia Ủa?",cat:"Nhậu",dish:"Bia + đồ nhắm",addr:"Đường Võ Thị Sáu (Phố Tây)",note:"Muốn ăn Cơm niêu Chạn thì quán ở ngay cạnh, cũng trên Võ Thị Sáu.",dist:"1,2 km · ~4 phút",
     map:"https://www.google.com/maps/place/Qu%C3%A1n+bia+%E1%BB%A6a%3F/@16.4691608,107.5957886,17z/data=!4m6!3m5!1s0x3141a191d647371d:0x9d53b7e32ddcb634!8m2!3d16.4691608!4d107.5957886!16s%2Fg%2F11p74r22kp"}
   ],
-  sights:["Chợ An Cựu","Bờ sông Lê Lợi","Cầu Trường Tiền lên đèn","Phố đi bộ Phố Tây","Vỹ Dạ"]
+  sights:["Chùa Thiên Mụ – hoàng hôn","Chợ An Cựu","Bờ sông Lê Lợi","Cầu Trường Tiền lên đèn","Phố đi bộ Phố Tây","Vỹ Dạ"]
  },
  t3: {
   title: "Tour 3 – Sáng ngày về",
   area: "Vĩnh Ninh – Nguyễn Trường Tộ – Ga Huế (bờ Nam)",
-  desc: "Buổi sáng trước khi trả phòng: bún hến, cafe Gác Trịnh, làm gốm ở Nấm Pottery (cùng toà nhà), chụp photobooth, ăn trưa sớm rồi checkout 12:00.",
-  total: "~2 km (chưa tính đường về khách sạn)",
+  desc: "Buổi sáng ngày về: bún hến, làm gốm ở Nấm Pottery, chụp photobooth, về nghỉ rồi checkout 12:00, ăn trưa sau khi trả phòng.",
+  total: "~1 km (chưa tính đường về khách sạn)",
   routes: [
-   ["Chỉ đường: Sáng","https://www.google.com/maps/dir/16.4604975,107.5902821/16.4558853,107.5867182/16.4572104,107.5780953"]
+   ["Chỉ đường: Sáng","https://www.google.com/maps/dir/16.4604975,107.5902821/16.4557891,107.5867759"]
   ],
   stops: [
-   {time:"07:15",kind:"food",hr:true,name:"Cơm hến, bún hến Lành",cat:"Cơm/bún hến",dish:"Bún hến (sáng không ăn cơm)",info:"13k/tô",
+   {time:"08:00",kind:"food",hr:true,name:"Cơm hến, bún hến Lành",cat:"Cơm/bún hến",dish:"Bún hến (sáng không ăn cơm)",info:"13k/tô",
     alt:["Bánh mỳ heo quay Điện Lực – từ 10k/ổ, bán cả ngày","https://www.google.com/maps/place/B%C3%A1nh+M%E1%BB%B3+Heo+Quay+%C4%90i%E1%BB%87n+L%E1%BB%B1c/@16.4571025,107.5731935,15z/data=!4m10!1m2!2m1!1zYsOhbmggbcOsIGh14bq_!3m6!1s0x3141a140ca5e4c9d:0x2dc63c11505391bc!8m2!3d16.4571025!4d107.5922479!15sCg9iw6FuaCBtw6wgaHXhur9aESIPYsOhbmggbcOsIGh14bq_kgEUZmFzdF9mb29kX3Jlc3RhdXJhbnTgAQA!16s%2Fg%2F11f0_stzz9"],
     map:"https://www.google.com/maps/place/C%C6%A1m+h%E1%BA%BFn,+b%C3%BAn+h%E1%BA%BFn+L%C3%A0nh/@16.4584265,107.5442169,14z/data=!4m10!1m2!2m1!1zdGnhu4dtIGPGoW0gaHXhur8!3m6!1s0x3141a1d4b4a734ed:0x908f8827a3866af6!8m2!3d16.4604975!4d107.5902821!15sChF0aeG7h20gY8ahbSBodeG6v1oTIhF0aeG7h20gY8ahbSBodeG6v5IBBmJpc3Ryb-ABAA!16s%2Fg%2F11j6ywdys_"},
-   {time:"08:00",end:"08:50",kind:"cafe",name:"Gác Trịnh",dish:"Xanh, cổ kính – nơi quay phim “Em và Trịnh”",info:"Tầng 2, khu tập thể 19 Nguyễn Trường Tộ (phòng 203) · 0,9 km",
-    alt:["NGHIA Coffee – cùng tầng, view nhà thờ Phú Cam","https://www.google.com/maps/place/NGHIA+Coffee/@16.4557942,107.5841956,17z/data=!3m1!4b1!4m6!3m5!1s0x3141a1b8597b165b:0x7e946f4c4ff929f2!8m2!3d16.4557891!4d107.5867759!16s%2Fg%2F11kc19hntj"],
-    map:"https://www.google.com/maps/place/G%C3%A1c+Tr%E1%BB%8Bnh/@16.4557558,107.586695,20.7z/data=!4m6!3m5!1s0x3141a154ea29492b:0xa774eaca38fa64bd!8m2!3d16.4558853!4d107.5867182!16s%2Fg%2F11f772txfj"},
-   {time:"09:00",end:"10:30",kind:"sight",name:"Nấm Pottery – làm gốm",dish:"Workshop sáng 9:00–12:00",info:"Phòng 206, khu tập thể 19 Nguyễn Trường Tộ – cùng tầng với Gác Trịnh · Đặt trước: 094 447 98 77 · Sản phẩm nung xong sau 3–4 tuần, hỏi gửi ship",
+   {time:"09:00",end:"10:30",kind:"sight",name:"Nấm Pottery – làm gốm",dish:"Workshop sáng 9:00–12:00",info:"Phòng 206, khu tập thể 19 Nguyễn Trường Tộ · 0,9 km · Đặt trước: 094 447 98 77 · Sản phẩm nung xong sau 3–4 tuần, hỏi gửi ship",
     map:"https://www.google.com/maps/place/NGHIA+Coffee/@16.4557942,107.5841956,17z/data=!3m1!4b1!4m6!3m5!1s0x3141a1b8597b165b:0x7e946f4c4ff929f2!8m2!3d16.4557891!4d107.5867759!16s%2Fg%2F11kc19hntj"},
    {time:"10:40",end:"11:10",kind:"sight",name:"Chụp photobooth",dish:"Chọn quán gần đó",
     map:M("photobooth gần Nguyễn Trường Tộ Huế")},
-   {time:"11:15",kind:"food",hr:true,name:"Quán cơm Hoa Yêm",cat:"Cơm",dish:"Cơm trưa",info:"Ngay ga Huế · ~1,1 km",
-    alt:["Cơm Mạ Nấu – 70k/mâm 2 người, gần ĐH Y Dược","https://www.google.com/maps/place/C%C6%A1m+M%E1%BA%A1+N%E1%BA%A5u/@16.4611757,107.5836691,17z/data=!4m11!1m3!2m2!1zY8ahbSB04bqlbQ!6e5!3m6!1s0x3141a1b47cccfde7:0x51648d84830fc25d!8m2!3d16.4611757!4d107.5884327!15sCgpjxqFtIHThuqVtWgwiCmPGoW0gdOG6pW2SAQpyZXN0YXVyYW504AEA!16s%2Fg%2F11h5nrdsps"],
-    map:"https://www.google.com/maps/place/Qu%C3%A1n+c%C6%A1m+Hoa+Y%C3%AAm/@16.4584265,107.5442169,14z/data=!4m11!1m3!2m2!1zdGnhu4dtIGPGoW0gaHXhur8!6e5!3m6!1s0x3141a15c7f2f8b77:0x203046c74235fd20!8m2!3d16.4572104!4d107.5780953!15sChF0aeG7h20gY8ahbSBodeG6v1oTIhF0aeG7h20gY8ahbSBodeG6v5IBCnJlc3RhdXJhbnTgAQA!16s%2Fg%2F11j6hlxt0p"},
-   {time:"12:00",kind:"sight",name:"Checkout khách sạn",dish:"Về khách sạn trả phòng"}
+   {time:"11:15",end:"12:00",kind:"sight",name:"Về khách sạn nghỉ ngơi",dish:"Dọn đồ trước khi trả phòng"},
+   {time:"12:00",kind:"sight",name:"Checkout khách sạn",dish:"Trả phòng"},
+   {time:"12:30",kind:"food",name:"Cơm nhà hàng",dish:"Ăn trưa sau khi checkout",info:"Tự chọn quán sau"}
   ]
  }
 };
