@@ -46,7 +46,7 @@ const TOURS = {
  t1: {
   title: "Tour 1 – Bờ Bắc",
   area: "Kinh Thành – Gia Hội – Lăng Khải Định – Đồi Thiên An",
-  desc: "Cả ngày. Sáng: bún bò Loan, xôi, Phê La rồi vào Đại Nội. Trưa: cơm hến chợ Tây Lộc. Chiều: lăng Khải Định, đồi Thiên An, chè và bèo nậm lọc. Tối: cafe, ốc.",
+  desc: "Cả ngày. Sáng: bún bò Loan, xôi, Phê La rồi vào Đại Nội. Trưa: cơm hến chợ Tây Lộc. Chiều: lăng Khải Định, đồi Thiên An, chè và bèo nậm lọc. Tối: chụp photobooth, cafe, ốc.",
   total: "~47 km",
   routes: [
    ["Chỉ đường: Sáng → Trưa","https://www.google.com/maps/dir/16.4552769,107.5879102/16.4768718,107.5834445/16.4671334,107.5905512/16.4678107,107.5790879/16.471901,107.575877/16.4792689,107.5936163"],
@@ -71,7 +71,8 @@ const TOURS = {
     map:"https://www.google.com/maps/place/Ch%C3%A8+M%E1%BB%A3+T%C3%B4n+%C4%90%C3%ADch/@16.4690466,107.5850157,17z/data=!4m6!3m5!1s0x3141a13065375f0f:0x1c449355353d15b2!8m2!3d16.4690466!4d107.5850157!16s%2Fg%2F11c4tb28kd"},
    {time:"17:15",kind:"food",hr:true,name:"Bánh Bèo Nậm Lọc Huế Xưa",cat:"Bánh Huế",dish:"Bánh bèo, nậm, bánh lọc",addr:"Đường Nguyễn Bỉnh Khiêm, Gia Hội",note:"Sheet ghi quán bán trưa và xế. Giờ 17:15 vẫn trong khung xế.",dist:"1,8 km · ~6 phút",
     map:"https://www.google.com/maps/place/Qu%C3%A1n+B%C3%A1nh+B%C3%A8o+N%E1%BA%ADm+L%E1%BB%8Dc+Hu%E1%BA%BF+X%C6%B0a/@16.4819779,107.5896761,17z/data=!4m6!3m5!1s0x3141a0d884d0af8f:0xaee706b9b3cdd8f6!8m2!3d16.4819779!4d107.5896761!16s%2Fg%2F11hbg8pxg1"},
-   {time:"18:00",end:"19:15",kind:"free",name:""},
+   {time:"18:00",end:"19:00",kind:"sight",name:"Chụp photobooth",dish:"Chọn quán gần đó",
+    map:M("photobooth Huế")},
    {time:"19:15",end:"19:55",kind:"cafe",name:"Tan. cafe – 86 Đinh Tiên Hoàng",dish:"Industrial, xanh, có bàn cao · cafe muối, matcha latte, cafe bắp",addr:"86 Đinh Tiên Hoàng, P. Phú Xuân (Kinh Thành)",info:"Chủ sheet thích cơ sở này nhất",dist:"1,8 km · ~6 phút",
     map:M("tan. cafe 86 Đinh Tiên Hoàng Huế")},
    {time:"20:05",kind:"food",hr:true,name:"Ốc Hẻm Huế",cat:"Ốc",dish:"Các món ốc",addr:"Gia Hội, P. Phú Xuân",info:"Ngon, đông khách",dist:"2 km · ~6 phút",
@@ -113,7 +114,7 @@ const TOURS = {
  t3: {
   title: "Tour 3 – Sáng ngày về",
   area: "Vĩnh Ninh – Nguyễn Trường Tộ – Ga Huế (bờ Nam)",
-  desc: "Buổi sáng ngày về: bún hến, làm gốm ở Nấm Pottery, chụp photobooth, về nghỉ rồi checkout 12:00, ăn trưa sau khi trả phòng.",
+  desc: "Buổi sáng ngày về: bún hến, làm gốm ở Nấm Pottery, về nghỉ rồi checkout 12:00, ăn trưa sau khi trả phòng.",
   total: "~1 km (chưa tính đường về khách sạn)",
   routes: [
    ["Chỉ đường: Sáng","https://www.google.com/maps/dir/16.4604975,107.5902821/16.4557891,107.5867759"]
@@ -124,9 +125,7 @@ const TOURS = {
     map:"https://www.google.com/maps/place/C%C6%A1m+h%E1%BA%BFn,+b%C3%BAn+h%E1%BA%BFn+L%C3%A0nh/@16.4584265,107.5442169,14z/data=!4m10!1m2!2m1!1zdGnhu4dtIGPGoW0gaHXhur8!3m6!1s0x3141a1d4b4a734ed:0x908f8827a3866af6!8m2!3d16.4604975!4d107.5902821!15sChF0aeG7h20gY8ahbSBodeG6v1oTIhF0aeG7h20gY8ahbSBodeG6v5IBBmJpc3Ryb-ABAA!16s%2Fg%2F11j6ywdys_"},
    {time:"09:00",end:"10:30",kind:"sight",name:"Nấm Pottery – làm gốm",dish:"Workshop sáng 9:00–12:00",info:"Phòng 206, khu tập thể 19 Nguyễn Trường Tộ · 0,9 km · Đặt trước: 094 447 98 77 · Sản phẩm nung xong sau 3–4 tuần, hỏi gửi ship",
     map:"https://www.google.com/maps/place/NGHIA+Coffee/@16.4557942,107.5841956,17z/data=!3m1!4b1!4m6!3m5!1s0x3141a1b8597b165b:0x7e946f4c4ff929f2!8m2!3d16.4557891!4d107.5867759!16s%2Fg%2F11kc19hntj"},
-   {time:"10:40",end:"11:10",kind:"sight",name:"Chụp photobooth",dish:"Chọn quán gần đó",
-    map:M("photobooth gần Nguyễn Trường Tộ Huế")},
-   {time:"11:15",end:"12:00",kind:"sight",name:"Về khách sạn nghỉ ngơi",dish:"Dọn đồ trước khi trả phòng"},
+   {time:"10:45",end:"12:00",kind:"sight",name:"Về khách sạn nghỉ ngơi",dish:"Dọn đồ trước khi trả phòng"},
    {time:"12:00",kind:"sight",name:"Checkout khách sạn",dish:"Trả phòng"},
    {time:"12:30",kind:"food",name:"Cơm nhà hàng",dish:"Ăn trưa sau khi checkout",info:"Tự chọn quán sau"}
   ]

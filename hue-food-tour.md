@@ -492,3 +492,12 @@ Chỉ đường: https://www.google.com/maps/dir/16.4604975,107.5902821/16.45588
 | 11:15–12:00 | Về khách sạn nghỉ ngơi |
 | 12:00 | Checkout |
 | 12:30 | Cơm nhà hàng (tự chọn quán) |
+
+---
+
+## Thay đổi lần 10
+
+> Chụp photobooth📍 đổi vào khung 18-19h15 tuor 1
+
+- Tour 1: 18:00–19:00 Chụp photobooth (thay dòng trống), rồi 19:15 Tan. cafe.
+- Tour 3: bỏ photobooth; 10:45–12:00 về khách sạn nghỉ ngơi sau Nấm Pottery.
