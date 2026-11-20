@@ -514,7 +514,7 @@ Chỉ đường: https://www.google.com/maps/dir/16.4604975,107.5902821/16.45588
 | Giờ | Điểm |
 |---|---|
 | 07:30 | Cơm hến, bún hến Lành |
-| 08:15–09:45 | ☕ Mê Cafe – Bến Xưa Vĩ Dạ |
+| 08:15–09:45 | ☕ Mê Cafe – Bến Xưa Vĩ Dạ<br>hoặc Phê La (Trời mưa ngồi Phê La ngắm cầu chill lắm) |
 | 10:30 | Bánh bèo nậm lọc Huế Xưa |
 | 11:30–14:00 | Nghỉ ngơi |
 | 14:30 | Tiệm bánh ép 1992 |

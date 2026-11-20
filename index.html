@@ -75,7 +75,11 @@ const TOURS = {
     "kind": "cafe",
     "name": "Mê Cafe – Bến Xưa Vĩ Dạ",
     "dish": "View bến sông, chụp ảnh đẹp",
-    "map": "https://www.google.com/maps/place/M%C3%AA+-+Cafe+B%E1%BA%BFn+X%C6%B0a/@16.4770875,107.5923485,17z/data=!3m1!4b1!4m6!3m5!1s0x3141a1007ab31489:0x3626544adbe4f10b!8m2!3d16.4770824!4d107.5949288!16s%2Fg%2F11lmk7zc3f"
+    "map": "https://www.google.com/maps/place/M%C3%AA+-+Cafe+B%E1%BA%BFn+X%C6%B0a/@16.4770875,107.5923485,17z/data=!3m1!4b1!4m6!3m5!1s0x3141a1007ab31489:0x3626544adbe4f10b!8m2!3d16.4770824!4d107.5949288!16s%2Fg%2F11lmk7zc3f",
+    "alt": [
+     "Phê La (Trời mưa ngồi Phê La ngắm cầu chill lắm)",
+     "https://www.google.com/maps/place/Ph%C3%AA+La+-+Hu%C3%AA%CC%81/@16.4671334,107.5905512,17z/data=!4m6!3m5!1s0x3141a11ad897d571:0x75b479b362cb2a74!8m2!3d16.4671334!4d107.5905512!16s%2Fg%2F11yskxfdbd"
+    ]
    },
    {
     "time": "10:30",
@@ -288,7 +292,7 @@ document.getElementById("app").innerHTML = Object.values(TOURS).map(t => `
         <td class="t">${esc(s.time)}</td>
         <td><span class="n">${esc(s.name)}</span>${k.join("")}
           ${d ? `<div class="d">${esc(d)}</div>` : ""}
-          ${s.alt ? `<div class="alt">Thay thế: ${a(s.alt[1], esc(s.alt[0]))}</div>` : ""}</td>
+          ${s.alt ? `<div class="alt">hoặc ${a(s.alt[1], esc(s.alt[0]))}</div>` : ""}</td>
         <td class="m">${s.map ? a(s.map, "Maps") : "—"}</td></tr>`;
     }).join("")}</tbody>
   </table>`).join("");
