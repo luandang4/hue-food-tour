@@ -513,6 +513,19 @@ Chỉ đường: https://www.google.com/maps/dir/16.4604975,107.5902821/16.45588
 ### Day 1 – Chủ nhật, 22/11
 | Giờ | Điểm |
 |---|---|
+| 07:30 | Cơm hến, bún hến Lành |
+| 08:15–09:45 | ☕ Mê Cafe – Bến Xưa Vĩ Dạ |
+| 10:30 | Bánh bèo nậm lọc Huế Xưa |
+| 11:30–14:00 | Nghỉ ngơi |
+| 14:30 | Tiệm bánh ép 1992 |
+| 15:30–16:30 | Tranh Mộc Bản – 25 Lê Lợi |
+| 16:45–17:30 | Lermer Photobooth |
+| 18:00 | Vịt lộn um bầu AT&F |
+| 19:00 | Tré trộn 95 (đóng cửa 10h30) |
+
+### Day 2 – Thứ hai, 23/11
+| Giờ | Điểm |
+|---|---|
 | 07:00 | Bún bò Loan |
 | 07:45–08:30 | ☕ Phê La – Huế |
 | 08:45–11:00 | Đại Nội |
@@ -525,19 +538,6 @@ Chỉ đường: https://www.google.com/maps/dir/16.4604975,107.5902821/16.45588
 | 19:30–20:15 | ☕ Tan. cafe – 86 Đinh Tiên Hoàng |
 | 20:30 | Ốc Hẻm Huế |
 
-### Day 2 – Thứ hai, 23/11
-| Giờ | Điểm |
-|---|---|
-| 07:30 | Cơm hến, bún hến Lành |
-| 08:15–09:45 | ☕ Mê Cafe – Bến Xưa Vĩ Dạ |
-| 10:30 | Bánh bèo nậm lọc Huế Xưa |
-| 11:30–14:00 | Nghỉ ngơi |
-| 14:30 | Tiệm bánh ép 1992 |
-| 15:30–16:30 | Tranh Mộc Bản – 25 Lê Lợi |
-| 16:45–17:30 | Lermer Photobooth |
-| 18:00 | Vịt lộn um bầu AT&F |
-| 19:00 | Tré trộn 95 (đóng cửa 10h30) |
-
 ### Day 3 – Thứ ba, 24/11
 | Giờ | Điểm |
 |---|---|
@@ -547,3 +547,11 @@ Chỉ đường: https://www.google.com/maps/dir/16.4604975,107.5902821/16.45588
 | 12:30 | The Beti Food |
 
 Chaleng Thai Food, Tranh Mộc Bản, Lermer Photobooth, Tré trộn 95, The Beti Food không có trong sheet, link Maps là link tìm kiếm theo tên.
+
+---
+
+## Thay đổi lần 12
+
+> giờ hoán đổi lịch ngày 2 thành lịch ngày 1
+
+Đã hoán đổi lịch Day 1 và Day 2 (giữ nguyên ngày tháng).

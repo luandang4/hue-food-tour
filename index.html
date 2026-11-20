@@ -46,6 +46,92 @@ const M = s => "https://www.google.com/maps/search/?api=1&query=" + encodeURICom
 const TOURS = {
  "t1": {
   "title": "Day 1 – Chủ nhật, 22/11",
+  "area": "Vĩnh Ninh – Vỹ Dạ – Gia Hội – An Cựu",
+  "total": "",
+  "desc": "",
+  "routes": [
+   [
+    "Sáng",
+    "https://www.google.com/maps/dir/16.4604975,107.5902821/16.4770824,107.5949288/16.4819779,107.5896761"
+   ],
+   [
+    "Chiều – Tối",
+    "https://www.google.com/maps/dir/16.4585147,107.6091045/Tranh+M%E1%BB%99c+B%E1%BA%A3n+25+L%C3%AA+L%E1%BB%A3i+Hu%E1%BA%BF/Lermer+Photobooth+Hu%E1%BA%BF/16.4568109,107.5939576/Tr%C3%A9+tr%E1%BB%99n+95+Hu%E1%BA%BF"
+   ]
+  ],
+  "stops": [
+   {
+    "time": "07:30",
+    "kind": "food",
+    "hr": true,
+    "name": "Cơm hến, bún hến Lành",
+    "dish": "Bún hến",
+    "info": "13k/tô",
+    "map": "https://www.google.com/maps/place/C%C6%A1m+h%E1%BA%BFn,+b%C3%BAn+h%E1%BA%BFn+L%C3%A0nh/@16.4584265,107.5442169,14z/data=!4m10!1m2!2m1!1zdGnhu4dtIGPGoW0gaHXhur8!3m6!1s0x3141a1d4b4a734ed:0x908f8827a3866af6!8m2!3d16.4604975!4d107.5902821!15sChF0aeG7h20gY8ahbSBodeG6v1oTIhF0aeG7h20gY8ahbSBodeG6v5IBBmJpc3Ryb-ABAA!16s%2Fg%2F11j6ywdys_"
+   },
+   {
+    "time": "08:15",
+    "end": "09:45",
+    "kind": "cafe",
+    "name": "Mê Cafe – Bến Xưa Vĩ Dạ",
+    "dish": "View bến sông, chụp ảnh đẹp",
+    "map": "https://www.google.com/maps/place/M%C3%AA+-+Cafe+B%E1%BA%BFn+X%C6%B0a/@16.4770875,107.5923485,17z/data=!3m1!4b1!4m6!3m5!1s0x3141a1007ab31489:0x3626544adbe4f10b!8m2!3d16.4770824!4d107.5949288!16s%2Fg%2F11lmk7zc3f"
+   },
+   {
+    "time": "10:30",
+    "kind": "food",
+    "hr": true,
+    "name": "Quán Bánh Bèo Nậm Lọc Huế Xưa",
+    "dish": "Bánh bèo, nậm, bánh lọc",
+    "map": "https://www.google.com/maps/place/Qu%C3%A1n+B%C3%A1nh+B%C3%A8o+N%E1%BA%ADm+L%E1%BB%8Dc+Hu%E1%BA%BF+X%C6%B0a/@16.4819779,107.5896761,17z/data=!4m6!3m5!1s0x3141a0d884d0af8f:0xaee706b9b3cdd8f6!8m2!3d16.4819779!4d107.5896761!16s%2Fg%2F11hbg8pxg1"
+   },
+   {
+    "time": "11:30",
+    "end": "14:00",
+    "kind": "rest",
+    "name": "Nghỉ ngơi"
+   },
+   {
+    "time": "14:30",
+    "kind": "food",
+    "hr": true,
+    "name": "Tiệm bánh ép 1992",
+    "dish": "Bánh ép",
+    "map": "https://www.google.com/maps/place/Ti%E1%BB%87m+b%C3%A1nh+%C3%A9p+1992/@16.4585147,107.6091045,17z/data=!4m6!3m5!1s0x3141a1581796c887:0xae0403180c0559f8!8m2!3d16.4585147!4d107.6091045!16s%2Fg%2F11twhypz4f"
+   },
+   {
+    "time": "15:30",
+    "end": "16:30",
+    "kind": "sight",
+    "name": "Tranh Mộc Bản – 25 Lê Lợi",
+    "map": "https://www.google.com/maps/search/?api=1&query=Tranh%20M%E1%BB%99c%20B%E1%BA%A3n%2025%20L%C3%AA%20L%E1%BB%A3i%20Hu%E1%BA%BF"
+   },
+   {
+    "time": "16:45",
+    "end": "17:30",
+    "kind": "sight",
+    "name": "Lermer Photobooth",
+    "map": "https://www.google.com/maps/search/?api=1&query=Lermer%20Photobooth%20Hu%E1%BA%BF"
+   },
+   {
+    "time": "18:00",
+    "kind": "food",
+    "hr": true,
+    "name": "Vịt lộn um bầu AT&F",
+    "dish": "Trứng lộn um bầu, mì xào trứng lộn, cút chiên xù",
+    "map": "https://www.google.com/maps/place/V%E1%BB%8Bt+l%E1%BB%99n+um+b%E1%BA%A7u+AT%26F/@16.4568109,107.5939576,17z/data=!4m6!3m5!1s0x3141a19f1f05906f:0x59c8479837d45cae!8m2!3d16.4568109!4d107.5939576!16s%2Fg%2F11jz69_hbn"
+   },
+   {
+    "time": "19:00",
+    "kind": "food",
+    "name": "Tré trộn 95",
+    "info": "Đóng cửa 10h30",
+    "map": "https://www.google.com/maps/search/?api=1&query=Tr%C3%A9%20tr%E1%BB%99n%2095%20Hu%E1%BA%BF"
+   }
+  ]
+ },
+ "t2": {
+  "title": "Day 2 – Thứ hai, 23/11",
   "area": "Kinh Thành – Lăng Khải Định – Đồi Thiên An – Gia Hội",
   "total": "",
   "desc": "",
@@ -146,92 +232,6 @@ const TOURS = {
     "name": "Ốc Hẻm Huế",
     "dish": "Các món ốc",
     "map": "https://www.google.com/maps/place/%E1%BB%90c+H%E1%BA%BBm+Hu%E1%BA%BF/@16.4791391,107.5892809,17z/data=!4m6!3m5!1s0x3141a1441d8fb92f:0x9292b0aea10208a9!8m2!3d16.4791391!4d107.5892809!16s%2Fg%2F11t_hxv8x0"
-   }
-  ]
- },
- "t2": {
-  "title": "Day 2 – Thứ hai, 23/11",
-  "area": "Vĩnh Ninh – Vỹ Dạ – Gia Hội – An Cựu",
-  "total": "",
-  "desc": "",
-  "routes": [
-   [
-    "Sáng",
-    "https://www.google.com/maps/dir/16.4604975,107.5902821/16.4770824,107.5949288/16.4819779,107.5896761"
-   ],
-   [
-    "Chiều – Tối",
-    "https://www.google.com/maps/dir/16.4585147,107.6091045/Tranh+M%E1%BB%99c+B%E1%BA%A3n+25+L%C3%AA+L%E1%BB%A3i+Hu%E1%BA%BF/Lermer+Photobooth+Hu%E1%BA%BF/16.4568109,107.5939576/Tr%C3%A9+tr%E1%BB%99n+95+Hu%E1%BA%BF"
-   ]
-  ],
-  "stops": [
-   {
-    "time": "07:30",
-    "kind": "food",
-    "hr": true,
-    "name": "Cơm hến, bún hến Lành",
-    "dish": "Bún hến",
-    "info": "13k/tô",
-    "map": "https://www.google.com/maps/place/C%C6%A1m+h%E1%BA%BFn,+b%C3%BAn+h%E1%BA%BFn+L%C3%A0nh/@16.4584265,107.5442169,14z/data=!4m10!1m2!2m1!1zdGnhu4dtIGPGoW0gaHXhur8!3m6!1s0x3141a1d4b4a734ed:0x908f8827a3866af6!8m2!3d16.4604975!4d107.5902821!15sChF0aeG7h20gY8ahbSBodeG6v1oTIhF0aeG7h20gY8ahbSBodeG6v5IBBmJpc3Ryb-ABAA!16s%2Fg%2F11j6ywdys_"
-   },
-   {
-    "time": "08:15",
-    "end": "09:45",
-    "kind": "cafe",
-    "name": "Mê Cafe – Bến Xưa Vĩ Dạ",
-    "dish": "View bến sông, chụp ảnh đẹp",
-    "map": "https://www.google.com/maps/place/M%C3%AA+-+Cafe+B%E1%BA%BFn+X%C6%B0a/@16.4770875,107.5923485,17z/data=!3m1!4b1!4m6!3m5!1s0x3141a1007ab31489:0x3626544adbe4f10b!8m2!3d16.4770824!4d107.5949288!16s%2Fg%2F11lmk7zc3f"
-   },
-   {
-    "time": "10:30",
-    "kind": "food",
-    "hr": true,
-    "name": "Quán Bánh Bèo Nậm Lọc Huế Xưa",
-    "dish": "Bánh bèo, nậm, bánh lọc",
-    "map": "https://www.google.com/maps/place/Qu%C3%A1n+B%C3%A1nh+B%C3%A8o+N%E1%BA%ADm+L%E1%BB%8Dc+Hu%E1%BA%BF+X%C6%B0a/@16.4819779,107.5896761,17z/data=!4m6!3m5!1s0x3141a0d884d0af8f:0xaee706b9b3cdd8f6!8m2!3d16.4819779!4d107.5896761!16s%2Fg%2F11hbg8pxg1"
-   },
-   {
-    "time": "11:30",
-    "end": "14:00",
-    "kind": "rest",
-    "name": "Nghỉ ngơi"
-   },
-   {
-    "time": "14:30",
-    "kind": "food",
-    "hr": true,
-    "name": "Tiệm bánh ép 1992",
-    "dish": "Bánh ép",
-    "map": "https://www.google.com/maps/place/Ti%E1%BB%87m+b%C3%A1nh+%C3%A9p+1992/@16.4585147,107.6091045,17z/data=!4m6!3m5!1s0x3141a1581796c887:0xae0403180c0559f8!8m2!3d16.4585147!4d107.6091045!16s%2Fg%2F11twhypz4f"
-   },
-   {
-    "time": "15:30",
-    "end": "16:30",
-    "kind": "sight",
-    "name": "Tranh Mộc Bản – 25 Lê Lợi",
-    "map": "https://www.google.com/maps/search/?api=1&query=Tranh%20M%E1%BB%99c%20B%E1%BA%A3n%2025%20L%C3%AA%20L%E1%BB%A3i%20Hu%E1%BA%BF"
-   },
-   {
-    "time": "16:45",
-    "end": "17:30",
-    "kind": "sight",
-    "name": "Lermer Photobooth",
-    "map": "https://www.google.com/maps/search/?api=1&query=Lermer%20Photobooth%20Hu%E1%BA%BF"
-   },
-   {
-    "time": "18:00",
-    "kind": "food",
-    "hr": true,
-    "name": "Vịt lộn um bầu AT&F",
-    "dish": "Trứng lộn um bầu, mì xào trứng lộn, cút chiên xù",
-    "map": "https://www.google.com/maps/place/V%E1%BB%8Bt+l%E1%BB%99n+um+b%E1%BA%A7u+AT%26F/@16.4568109,107.5939576,17z/data=!4m6!3m5!1s0x3141a19f1f05906f:0x59c8479837d45cae!8m2!3d16.4568109!4d107.5939576!16s%2Fg%2F11jz69_hbn"
-   },
-   {
-    "time": "19:00",
-    "kind": "food",
-    "name": "Tré trộn 95",
-    "info": "Đóng cửa 10h30",
-    "map": "https://www.google.com/maps/search/?api=1&query=Tr%C3%A9%20tr%E1%BB%99n%2095%20Hu%E1%BA%BF"
    }
   ]
  },
