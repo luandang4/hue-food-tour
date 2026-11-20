@@ -510,7 +510,7 @@ Chỉ đường: https://www.google.com/maps/dir/16.4604975,107.5902821/16.45588
 > Day 2: Cơm hến, bún hến Lành, Mê Cafe - Bến Xưa Vĩ Dạ, Quán Bánh Bèo Nậm Lọc Huế Xưa --> Nghỉ ngơi, Tiệm bánh ép 1992, Tranh Mộc Bản - 25 Lê Lợi, Lermer Photobooth, Vịt lộn um bầu AT&F, Tré trộn 95 (10h30 đóng cửa)
 > Day 3: Ăn sáng, Nghỉ ngơi, Checkout, The Beti Food
 
-### Day 1
+### Day 1 – Chủ nhật, 22/11
 | Giờ | Điểm |
 |---|---|
 | 07:00 | Bún bò Loan |
@@ -525,7 +525,7 @@ Chỉ đường: https://www.google.com/maps/dir/16.4604975,107.5902821/16.45588
 | 19:30–20:15 | ☕ Tan. cafe – 86 Đinh Tiên Hoàng |
 | 20:30 | Ốc Hẻm Huế |
 
-### Day 2
+### Day 2 – Thứ hai, 23/11
 | Giờ | Điểm |
 |---|---|
 | 07:30 | Cơm hến, bún hến Lành |
@@ -538,7 +538,7 @@ Chỉ đường: https://www.google.com/maps/dir/16.4604975,107.5902821/16.45588
 | 18:00 | Vịt lộn um bầu AT&F |
 | 19:00 | Tré trộn 95 (đóng cửa 10h30) |
 
-### Day 3
+### Day 3 – Thứ ba, 24/11
 | Giờ | Điểm |
 |---|---|
 | 08:00 | Ăn sáng |
