@@ -501,3 +501,49 @@ Chỉ đường: https://www.google.com/maps/dir/16.4604975,107.5902821/16.45588
 
 - Tour 1: 18:00–19:00 Chụp photobooth (thay dòng trống), rồi 19:15 Tan. cafe.
 - Tour 3: bỏ photobooth; 10:45–12:00 về khách sạn nghỉ ngơi sau Nấm Pottery.
+
+---
+
+## Thay đổi lần 11 – Sắp xếp lại theo ngày
+
+> Day 1: Bún bò Loan, Phê la huế, Đại nội, Bánh Khoái Hồng Mai --> nghỉ ngơi, Lăng Khải Định, Đồi Thiên An --> nghỉ ngơi, Chaleng Thai Food, Tan. cafe – 86 Đinh Tiên Hoàng, Ốc Hẻm Huế
+> Day 2: Cơm hến, bún hến Lành, Mê Cafe - Bến Xưa Vĩ Dạ, Quán Bánh Bèo Nậm Lọc Huế Xưa --> Nghỉ ngơi, Tiệm bánh ép 1992, Tranh Mộc Bản - 25 Lê Lợi, Lermer Photobooth, Vịt lộn um bầu AT&F, Tré trộn 95 (10h30 đóng cửa)
+> Day 3: Ăn sáng, Nghỉ ngơi, Checkout, The Beti Food
+
+### Day 1
+| Giờ | Điểm |
+|---|---|
+| 07:00 | Bún bò Loan |
+| 07:45–08:30 | ☕ Phê La – Huế |
+| 08:45–11:00 | Đại Nội |
+| 11:15 | Bánh khoái Hồng Mai |
+| 12:00–13:30 | Nghỉ ngơi |
+| 14:00–15:15 | Lăng Khải Định |
+| 15:30–16:30 | Đồi Thiên An |
+| 17:00–18:30 | Nghỉ ngơi |
+| 18:30 | Chaleng Thai Food |
+| 19:30–20:15 | ☕ Tan. cafe – 86 Đinh Tiên Hoàng |
+| 20:30 | Ốc Hẻm Huế |
+
+### Day 2
+| Giờ | Điểm |
+|---|---|
+| 07:30 | Cơm hến, bún hến Lành |
+| 08:15–09:45 | ☕ Mê Cafe – Bến Xưa Vĩ Dạ |
+| 10:30 | Bánh bèo nậm lọc Huế Xưa |
+| 11:30–14:00 | Nghỉ ngơi |
+| 14:30 | Tiệm bánh ép 1992 |
+| 15:30–16:30 | Tranh Mộc Bản – 25 Lê Lợi |
+| 16:45–17:30 | Lermer Photobooth |
+| 18:00 | Vịt lộn um bầu AT&F |
+| 19:00 | Tré trộn 95 (đóng cửa 10h30) |
+
+### Day 3
+| Giờ | Điểm |
+|---|---|
+| 08:00 | Ăn sáng |
+| 09:00–12:00 | Nghỉ ngơi |
+| 12:00 | Checkout |
+| 12:30 | The Beti Food |
+
+Chaleng Thai Food, Tranh Mộc Bản, Lermer Photobooth, Tré trộn 95, The Beti Food không có trong sheet, link Maps là link tìm kiếm theo tên.
